@@ -11,7 +11,7 @@ This is a reference implementation of two patterns I use in production agent dep
 
 **[Live dashboard](https://shahabajsk.github.io/grounded-triage/)**
 
-![Dispute triage console](docs/img/dashboard.png)
+![Dispute triage console](docs/dashboard.png)
 
 ## The problem
 
