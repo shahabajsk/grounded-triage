@@ -46,4 +46,14 @@ def test_no_unverified_note_ships_even_under_heavy_fabrication():
 def test_offline_baseline_is_pinned():
     # If this moves, the README table is out of date. Update both together.
     r = run(RuleModel(), DATA)
-    assert (r["unsafe_auto_decisions"], r["over_escalations"]) == (3, 3)
+    assert (r["unsafe_auto_decisions"], r["over_escalations"]) == (0, 3)
+
+
+def test_repeat_purchase_with_separate_deliveries_is_not_a_duplicate(ledger, cases):
+    m = TriageMachine(ledger, RuleModel())
+    repeat = [c for c in cases if c.expected_category.value == "no_basis" and "twice" in c.dispute.complaint]
+    assert repeat
+    for c in repeat:
+        out = m.run(c.dispute)
+        assert out.action is Action.REJECT
+        assert out.draft and "separate delivered order" in out.draft

@@ -69,11 +69,13 @@ class Ledger:
 
     def gather(self, dispute: Dispute) -> Evidence:
         txn = self.get_transaction(dispute.transaction_id)
+        related = self.related_transactions(txn)
         return Evidence(
             dispute=dispute,
             customer=self.get_customer(dispute.customer_id),
             transaction=txn,
             merchant=self.get_merchant(txn.merchant_id),
-            related_transactions=self.related_transactions(txn),
+            related_transactions=related,
             delivery=self.get_delivery(txn.id),
+            related_deliveries=[d for d in (self.get_delivery(r.id) for r in related) if d is not None],
         )

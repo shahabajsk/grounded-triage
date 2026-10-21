@@ -85,6 +85,7 @@ class Evidence(BaseModel):
     merchant: Merchant
     related_transactions: list[Transaction] = Field(default_factory=list)
     delivery: Delivery | None = None
+    related_deliveries: list[Delivery] = Field(default_factory=list)
 
     def records(self) -> dict[str, BaseModel]:
         """Every record the draft may cite, keyed by citation tag, e.g. 'txn:T0001'."""
@@ -98,6 +99,8 @@ class Evidence(BaseModel):
             out[f"txn:{t.id}"] = t
         if self.delivery:
             out[f"delivery:{self.delivery.id}"] = self.delivery
+        for d in self.related_deliveries:
+            out[f"delivery:{d.id}"] = d
         return out
 
 
