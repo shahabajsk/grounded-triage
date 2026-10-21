@@ -37,13 +37,21 @@ def _inr(n: int) -> str:
 
 
 class RuleModel:
-    name = "rule-v1"
+    name = "rule-v2"
 
     def classify(self, ev: Evidence) -> Classification:
         t, c, d = ev.transaction, ev.customer, ev.dispute
         complaint = d.complaint.lower()
 
         dup = [r for r in ev.related_transactions if r.amount == t.amount]
+        delivered = {d.transaction_id for d in [ev.delivery, *ev.related_deliveries] if d and d.status == "delivered"}
+        if dup and t.id in delivered and all(r.id in delivered for r in dup):
+            # Same amount twice, but each charge has its own delivered order: two real purchases.
+            return Classification(
+                category=Category.NO_BASIS,
+                confidence=0.85,
+                rationale="each same-amount charge has its own delivered order",
+            )
         if dup:
             return Classification(
                 category=Category.DUPLICATE,
@@ -109,6 +117,10 @@ class RuleModel:
             lines.append(f"The posted amount is {_inr(t.amount)} {tc}.")
         elif cls.category is Category.NOT_RECEIVED and ev.delivery:
             lines.append(f"The logistics record shows status {ev.delivery.status} [delivery:{ev.delivery.id}].")
+        elif ev.delivery and ev.related_deliveries and cls.category is Category.NO_BASIS:
+            for dd in [ev.delivery, *ev.related_deliveries]:
+                lines.append(f"Order for charge {dd.transaction_id} was delivered on {dd.date} [delivery:{dd.id}].")
+            lines.append("Each charge matches a separate delivered order, so neither is a duplicate.")
         elif ev.delivery:
             dd = ev.delivery
             lines.append(f"The logistics record shows the order delivered on {dd.date} [delivery:{dd.id}].")
