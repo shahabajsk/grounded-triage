@@ -4,7 +4,7 @@ What this does not do, and what I would change before a real deployment.
 
 ## Known failures
 
-**Legitimate repeat purchases read as duplicates.** Three cases in the eval: two charges, same merchant, same amount, both delivered. The rule model credits them. Fix: check delivery records for both transactions before calling a duplicate, and add order ids to the transaction record. A stronger model may catch it; the eval will say.
+**Fixed: legitimate repeat purchases.** Two charges with the same merchant and amount used to be credited as a duplicate. The classifier now checks each charge's delivery record and rejects with both deliveries cited when both orders arrived. Remaining gap: purchases with no delivery record at all (services, digital goods) still read as duplicates; order ids on the transaction record would close it.
 
 **Stolen known devices escalate.** A thief using the customer's own phone looks like the customer. The model is unsure and the policy escalates. Safe, but slow. Fix needs a signal this dataset doesn't have: a lost-device report, a SIM swap flag, or a sudden change in UPI behaviour.
 

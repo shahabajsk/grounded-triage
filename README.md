@@ -49,19 +49,19 @@ stateDiagram-v2
 
 ## Eval results
 
-60 synthetic disputes across 10 scenarios. Three scenarios are planted hard cases the offline model is expected to get wrong.
+60 synthetic disputes across 10 scenarios, including planted hard cases: real repeat purchases that look like duplicates, and stolen phones that look like the customer.
 
 | Run | Right action | Closed without a human | Wrong auto-decisions | Needless escalations | Fabrications injected | Caught | Unverified notes shipped |
 |---|---|---|---|---|---|---|---|
-| rule-v1 | 90% | 72% | 3 | 3 | 0 | 0 | **0** |
-| rule-v1, 20% fabrication | 87% | 68% | 3 | 5 | 20 | 20 | **0** |
-| rule-v1, 40% fabrication | 80% | 62% | 3 | 9 | 36 | 36 | **0** |
+| rule-v2 | 95% | 72% | **0** | 3 | 0 | 0 | **0** |
+| rule-v2, 20% fabrication | 92% | 68% | **0** | 5 | 20 | 20 | **0** |
+| rule-v2, 40% fabrication | 85% | 62% | **0** | 9 | 36 | 36 | **0** |
 
 What the numbers say:
 
 - Fabrication never reaches the case file. As the injected rate rises, the cost shows up as retries and escalations, which is the trade a bank wants.
-- The 3 wrong auto-decisions are customers who really bought the same item twice. The offline model reads "same merchant, same amount" as a duplicate. This is the failure to fix next, and it is a classification problem, not a grounding one. See [LIMITATIONS.md](LIMITATIONS.md).
-- The 3 baseline needless escalations are stolen phones: known device, new city. The model is unsure and the policy sends it to a human. Safe, but it costs analyst time.
+- No automatic decision is wrong. Same merchant, same amount twice looks like a duplicate charge, but when each charge has its own delivered order it is two real purchases. The classifier checks the delivery records for both charges before crediting, and the note cites both deliveries when it rejects.
+- The 3 needless escalations are stolen phones: known device, new city. The model is unsure and the policy sends it to a human. Safe, but it costs analyst time. See [LIMITATIONS.md](LIMITATIONS.md).
 
 ## Run it
 
