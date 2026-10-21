@@ -1,0 +1,121 @@
+:root {
+  --paper: #f3f5f7;
+  --sheet: #ffffff;
+  --ink: #14213d;
+  --ink-2: #4a5873;
+  --rule: #d5dbe1;
+  --ok: #1f7a5c;
+  --bad: #b42318;
+  --hold: #a15c00;
+  --chip: #e3ecf5;
+  --focus: #2f6fd6;
+  --serif: "Source Serif 4", Georgia, serif;
+  --sans: "Public Sans", system-ui, sans-serif;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0f1726;
+    --sheet: #162033;
+    --ink: #e6ebf3;
+    --ink-2: #a3b0c6;
+    --rule: #2a3750;
+    --ok: #4cc198;
+    --bad: #f0806f;
+    --hold: #e6a54a;
+    --chip: #213152;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.5 var(--sans); }
+button, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.shell { max-width: 1240px; margin: 0 auto; padding: 32px 24px 64px; }
+.muted { color: var(--ink-2); }
+.pad { padding: 16px; }
+.error { color: var(--bad); }
+
+.masthead { display: grid; grid-template-columns: 1fr auto; gap: 8px 32px; align-items: end; margin-bottom: 28px; }
+.masthead h1 { margin: 0; font: 600 30px/1.15 var(--serif); letter-spacing: -0.01em; grid-column: 1; }
+.lede { margin: 0; max-width: 64ch; color: var(--ink-2); grid-column: 1; }
+.run-picker { grid-column: 2; grid-row: 1 / span 2; display: grid; gap: 4px; font-size: 13px; color: var(--ink-2); }
+.run-picker select { padding: 8px 10px; border: 1px solid var(--rule); border-radius: 6px; background: var(--sheet); min-width: 240px; }
+
+/* The one loud element: injected -> caught -> shipped */
+.ledger-strip { display: grid; grid-template-columns: 1.6fr 1fr; gap: 24px; padding: 24px 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--rule); margin-bottom: 24px; }
+.funnel { display: grid; grid-template-columns: repeat(3, 1fr); }
+.funnel-step { padding: 0 20px; border-left: 1px solid var(--rule); display: grid; align-content: start; }
+.funnel-step:first-child { border-left: 0; padding-left: 0; }
+.funnel-num { font: 600 56px/1 var(--serif); font-variant-numeric: tabular-nums; }
+.funnel-label { color: var(--ink-2); font-size: 13px; margin-top: 6px; max-width: 18ch; }
+.funnel-step.is-zero .funnel-num { color: var(--ok); }
+.funnel-step.is-bad .funnel-num { color: var(--bad); }
+
+.kpis { margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px 24px; align-content: center; }
+.kpis div { display: flex; justify-content: space-between; border-bottom: 1px dotted var(--rule); padding-bottom: 4px; }
+.kpis dt { color: var(--ink-2); font-size: 13px; }
+.kpis dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+.kpis dd.bad { color: var(--bad); }
+
+.workspace { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+.queue { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; }
+.filters { display: flex; flex-wrap: wrap; gap: 4px; padding: 10px; border-bottom: 1px solid var(--rule); }
+.filters button { border: 1px solid transparent; background: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; font-size: 13px; color: var(--ink-2); }
+.filters button.on { border-color: var(--ink); color: var(--ink); font-weight: 600; }
+
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th { text-align: left; font-weight: 500; font-size: 12px; color: var(--ink-2); padding: 8px 12px; border-bottom: 1px solid var(--rule); }
+td { padding: 9px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: var(--chip); }
+tbody tr.sel { background: var(--chip); box-shadow: inset 3px 0 0 var(--ink); }
+tbody tr.v-unsafe td.id { color: var(--bad); font-weight: 600; }
+td.id { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.tag { white-space: nowrap; font-size: 12px; font-weight: 600; }
+.a-provisional_credit { color: var(--ok); }
+.a-reject { color: var(--ink); }
+.a-escalate { color: var(--hold); }
+
+.detail { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 20px 22px; position: sticky; top: 16px; }
+.detail header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.detail h2 { margin: 0; font: 600 22px var(--serif); }
+.detail h3 { font-size: 13px; font-weight: 600; margin: 22px 0 8px; color: var(--ink-2); }
+.verdict { font-size: 13px; font-weight: 600; }
+.verdict.v-correct { color: var(--ok); }
+.verdict.v-unsafe { color: var(--bad); }
+.verdict.v-over_escalation { color: var(--hold); }
+blockquote { margin: 12px 0 0; padding-left: 12px; border-left: 3px solid var(--rule); font-family: var(--serif); font-style: italic; color: var(--ink-2); }
+
+.facts { margin: 16px 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; font-size: 13px; }
+.facts dt { color: var(--ink-2); }
+.facts dd { margin: 0; font-weight: 500; }
+
+.trace { list-style: none; margin: 0; padding: 0; counter-reset: s; }
+.trace li { counter-increment: s; display: grid; grid-template-columns: 28px 120px 1fr; gap: 8px; padding: 5px 0; border-bottom: 1px dotted var(--rule); font-size: 13px; }
+.trace li::before { content: counter(s); color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.trace .st { font-weight: 600; }
+.trace .sn { color: var(--ink-2); overflow-wrap: anywhere; }
+.trace li.rejected .sn, .trace li.st-escalate .st { color: var(--hold); }
+.trace li.st-done .st { color: var(--ok); }
+
+.note { font: 16px/1.65 var(--serif); }
+.note p { margin: 0 0 8px; }
+.cite { display: inline-block; font: 600 11px/1.6 var(--sans); background: var(--chip); color: var(--ink); padding: 0 6px; border-radius: 3px; margin-left: 4px; vertical-align: 2px; }
+
+@media (max-width: 880px) {
+  .masthead { grid-template-columns: 1fr; }
+  .run-picker { grid-column: 1; grid-row: auto; }
+  .ledger-strip, .workspace { grid-template-columns: 1fr; }
+  .funnel-num { font-size: 40px; }
+  .detail { position: static; }
+}
+@media (max-width: 520px) {
+  .funnel { grid-template-columns: 1fr; gap: 12px; }
+  .funnel-step { border-left: 0; padding: 0; }
+  .kpis { grid-template-columns: 1fr; }
+}
