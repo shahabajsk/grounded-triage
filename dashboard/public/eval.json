@@ -2,10 +2,10 @@
  "runs": [
   {
    "cases": 60,
-   "action_accuracy": 0.9,
-   "category_accuracy_on_auto": 0.93,
+   "action_accuracy": 0.95,
+   "category_accuracy_on_auto": 1.0,
    "automation_rate": 0.717,
-   "unsafe_auto_decisions": 3,
+   "unsafe_auto_decisions": 0,
    "over_escalations": 3,
    "fabricated_notes_shipped": 0,
    "verifier_rejections": 0,
@@ -1091,14 +1091,14 @@
      "complaint": "I was charged twice for the same order.",
      "expected_action": "reject",
      "expected_category": "no_basis",
-     "action": "provisional_credit",
-     "category": "duplicate_charge",
-     "confidence": 0.95,
+     "action": "reject",
+     "category": "no_basis",
+     "confidence": 0.85,
      "escalation_reason": null,
      "draft_attempts": 1,
      "verifier_rejections": 0,
-     "draft": "Dispute D027 concerns a charge of \u20b914,874 at Bluepeak Travel on 2026-09-05 [txn:T00187] [dispute:D027].\nA second charge of \u20b914,874 at the same merchant posted on 2026-09-06 [txn:T00188].\nThe pattern is consistent with a duplicate charge.\nThis merchant's 90-day dispute rate is 6.4% [merchant:M102].",
-     "verdict": "unsafe",
+     "draft": "Dispute D027 concerns a charge of \u20b914,874 at Bluepeak Travel on 2026-09-05 [txn:T00187] [dispute:D027].\nOrder for charge T00187 was delivered on 2026-09-08 [delivery:DL0017].\nOrder for charge T00188 was delivered on 2026-09-08 [delivery:DL0018].\nEach charge matches a separate delivered order, so neither is a duplicate.\nThis merchant's 90-day dispute rate is 6.4% [merchant:M102].",
+     "verdict": "correct",
      "trace": [
       {
        "state": "intake",
@@ -1106,11 +1106,11 @@
       },
       {
        "state": "gather_evidence",
-       "note": "6 records gathered"
+       "note": "7 records gathered"
       },
       {
        "state": "classify",
-       "note": "duplicate_charge @ 0.95: 1 same-amount charge(s) at the same merchant within 3 days"
+       "note": "no_basis @ 0.85: each same-amount charge has its own delivered order"
       },
       {
        "state": "draft",
@@ -1118,15 +1118,15 @@
       },
       {
        "state": "verify",
-       "note": "4 sentences verified"
+       "note": "5 sentences verified"
       },
       {
        "state": "decide",
-       "note": "provisional_credit"
+       "note": "reject"
       },
       {
        "state": "done",
-       "note": "provisional_credit"
+       "note": "reject"
       }
      ]
     },
@@ -1543,14 +1543,14 @@
      "complaint": "I was charged twice for the same order.",
      "expected_action": "reject",
      "expected_category": "no_basis",
-     "action": "provisional_credit",
-     "category": "duplicate_charge",
-     "confidence": 0.95,
+     "action": "reject",
+     "category": "no_basis",
+     "confidence": 0.85,
      "escalation_reason": null,
      "draft_attempts": 1,
      "verifier_rejections": 0,
-     "draft": "Dispute D038 concerns a charge of \u20b93,353 at Pixel Arcade on 2026-09-09 [txn:T00196] [dispute:D038].\nA second charge of \u20b93,353 at the same merchant posted on 2026-09-09 [txn:T00197].\nThe pattern is consistent with a duplicate charge.\nThis merchant's 90-day dispute rate is 9.1% [merchant:M105].",
-     "verdict": "unsafe",
+     "draft": "Dispute D038 concerns a charge of \u20b93,353 at Pixel Arcade on 2026-09-09 [txn:T00196] [dispute:D038].\nOrder for charge T00196 was delivered on 2026-09-12 [delivery:DL0021].\nOrder for charge T00197 was delivered on 2026-09-12 [delivery:DL0022].\nEach charge matches a separate delivered order, so neither is a duplicate.\nThis merchant's 90-day dispute rate is 9.1% [merchant:M105].",
+     "verdict": "correct",
      "trace": [
       {
        "state": "intake",
@@ -1558,11 +1558,11 @@
       },
       {
        "state": "gather_evidence",
-       "note": "6 records gathered"
+       "note": "7 records gathered"
       },
       {
        "state": "classify",
-       "note": "duplicate_charge @ 0.95: 1 same-amount charge(s) at the same merchant within 3 days"
+       "note": "no_basis @ 0.85: each same-amount charge has its own delivered order"
       },
       {
        "state": "draft",
@@ -1570,15 +1570,15 @@
       },
       {
        "state": "verify",
-       "note": "4 sentences verified"
+       "note": "5 sentences verified"
       },
       {
        "state": "decide",
-       "note": "provisional_credit"
+       "note": "reject"
       },
       {
        "state": "done",
-       "note": "provisional_credit"
+       "note": "reject"
       }
      ]
     },
@@ -2399,14 +2399,14 @@
      "complaint": "I was charged twice for the same order.",
      "expected_action": "reject",
      "expected_category": "no_basis",
-     "action": "provisional_credit",
-     "category": "duplicate_charge",
-     "confidence": 0.95,
+     "action": "reject",
+     "category": "no_basis",
+     "confidence": 0.85,
      "escalation_reason": null,
      "draft_attempts": 1,
      "verifier_rejections": 0,
-     "draft": "Dispute D059 concerns a charge of \u20b92,007 at QuickCart Grocery on 2026-09-01 [txn:T00192] [dispute:D059].\nA second charge of \u20b92,007 at the same merchant posted on 2026-09-01 [txn:T00193].\nThe pattern is consistent with a duplicate charge.",
-     "verdict": "unsafe",
+     "draft": "Dispute D059 concerns a charge of \u20b92,007 at QuickCart Grocery on 2026-09-01 [txn:T00192] [dispute:D059].\nOrder for charge T00192 was delivered on 2026-09-04 [delivery:DL0019].\nOrder for charge T00193 was delivered on 2026-09-04 [delivery:DL0020].\nEach charge matches a separate delivered order, so neither is a duplicate.",
+     "verdict": "correct",
      "trace": [
       {
        "state": "intake",
@@ -2414,11 +2414,11 @@
       },
       {
        "state": "gather_evidence",
-       "note": "6 records gathered"
+       "note": "7 records gathered"
       },
       {
        "state": "classify",
-       "note": "duplicate_charge @ 0.95: 1 same-amount charge(s) at the same merchant within 3 days"
+       "note": "no_basis @ 0.85: each same-amount charge has its own delivered order"
       },
       {
        "state": "draft",
@@ -2426,15 +2426,15 @@
       },
       {
        "state": "verify",
-       "note": "3 sentences verified"
+       "note": "4 sentences verified"
       },
       {
        "state": "decide",
-       "note": "provisional_credit"
+       "note": "reject"
       },
       {
        "state": "done",
-       "note": "provisional_credit"
+       "note": "reject"
       }
      ]
     },
@@ -2483,14 +2483,14 @@
      ]
     }
    ],
-   "model": "rule-v1"
+   "model": "rule-v2"
   },
   {
    "cases": 60,
-   "action_accuracy": 0.867,
-   "category_accuracy_on_auto": 0.927,
+   "action_accuracy": 0.917,
+   "category_accuracy_on_auto": 1.0,
    "automation_rate": 0.683,
-   "unsafe_auto_decisions": 3,
+   "unsafe_auto_decisions": 0,
    "over_escalations": 5,
    "fabricated_notes_shipped": 0,
    "verifier_rejections": 20,
@@ -3672,14 +3672,14 @@
      "complaint": "I was charged twice for the same order.",
      "expected_action": "reject",
      "expected_category": "no_basis",
-     "action": "provisional_credit",
-     "category": "duplicate_charge",
-     "confidence": 0.95,
+     "action": "reject",
+     "category": "no_basis",
+     "confidence": 0.85,
      "escalation_reason": null,
      "draft_attempts": 1,
      "verifier_rejections": 0,
-     "draft": "Dispute D027 concerns a charge of \u20b914,874 at Bluepeak Travel on 2026-09-05 [txn:T00187] [dispute:D027].\nA second charge of \u20b914,874 at the same merchant posted on 2026-09-06 [txn:T00188].\nThe pattern is consistent with a duplicate charge.\nThis merchant's 90-day dispute rate is 6.4% [merchant:M102].",
-     "verdict": "unsafe",
+     "draft": "Dispute D027 concerns a charge of \u20b914,874 at Bluepeak Travel on 2026-09-05 [txn:T00187] [dispute:D027].\nOrder for charge T00187 was delivered on 2026-09-08 [delivery:DL0017].\nOrder for charge T00188 was delivered on 2026-09-08 [delivery:DL0018].\nEach charge matches a separate delivered order, so neither is a duplicate.\nThis merchant's 90-day dispute rate is 6.4% [merchant:M102].",
+     "verdict": "correct",
      "trace": [
       {
        "state": "intake",
@@ -3687,11 +3687,11 @@
       },
       {
        "state": "gather_evidence",
-       "note": "6 records gathered"
+       "note": "7 records gathered"
       },
       {
        "state": "classify",
-       "note": "duplicate_charge @ 0.95: 1 same-amount charge(s) at the same merchant within 3 days"
+       "note": "no_basis @ 0.85: each same-amount charge has its own delivered order"
       },
       {
        "state": "draft",
@@ -3699,15 +3699,15 @@
       },
       {
        "state": "verify",
-       "note": "4 sentences verified"
+       "note": "5 sentences verified"
       },
       {
        "state": "decide",
-       "note": "provisional_credit"
+       "note": "reject"
       },
       {
        "state": "done",
-       "note": "provisional_credit"
+       "note": "reject"
       }
      ]
     },
@@ -4140,14 +4140,14 @@
      "complaint": "I was charged twice for the same order.",
      "expected_action": "reject",
      "expected_category": "no_basis",
-     "action": "provisional_credit",
-     "category": "duplicate_charge",
-     "confidence": 0.95,
+     "action": "reject",
+     "category": "no_basis",
+     "confidence": 0.85,
      "escalation_reason": null,
      "draft_attempts": 1,
      "verifier_rejections": 0,
-     "draft": "Dispute D038 concerns a charge of \u20b93,353 at Pixel Arcade on 2026-09-09 [txn:T00196] [dispute:D038].\nA second charge of \u20b93,353 at the same merchant posted on 2026-09-09 [txn:T00197].\nThe pattern is consistent with a duplicate charge.\nThis merchant's 90-day dispute rate is 9.1% [merchant:M105].",
-     "verdict": "unsafe",
+     "draft": "Dispute D038 concerns a charge of \u20b93,353 at Pixel Arcade on 2026-09-09 [txn:T00196] [dispute:D038].\nOrder for charge T00196 was delivered on 2026-09-12 [delivery:DL0021].\nOrder for charge T00197 was delivered on 2026-09-12 [delivery:DL0022].\nEach charge matches a separate delivered order, so neither is a duplicate.\nThis merchant's 90-day dispute rate is 9.1% [merchant:M105].",
+     "verdict": "correct",
      "trace": [
       {
        "state": "intake",
@@ -4155,11 +4155,11 @@
       },
       {
        "state": "gather_evidence",
-       "note": "6 records gathered"
+       "note": "7 records gathered"
       },
       {
        "state": "classify",
-       "note": "duplicate_charge @ 0.95: 1 same-amount charge(s) at the same merchant within 3 days"
+       "note": "no_basis @ 0.85: each same-amount charge has its own delivered order"
       },
       {
        "state": "draft",
@@ -4167,15 +4167,15 @@
       },
       {
        "state": "verify",
-       "note": "4 sentences verified"
+       "note": "5 sentences verified"
       },
       {
        "state": "decide",
-       "note": "provisional_credit"
+       "note": "reject"
       },
       {
        "state": "done",
-       "note": "provisional_credit"
+       "note": "reject"
       }
      ]
     },
@@ -5020,14 +5020,14 @@
      "complaint": "I was charged twice for the same order.",
      "expected_action": "reject",
      "expected_category": "no_basis",
-     "action": "provisional_credit",
-     "category": "duplicate_charge",
-     "confidence": 0.95,
+     "action": "reject",
+     "category": "no_basis",
+     "confidence": 0.85,
      "escalation_reason": null,
      "draft_attempts": 1,
      "verifier_rejections": 0,
-     "draft": "Dispute D059 concerns a charge of \u20b92,007 at QuickCart Grocery on 2026-09-01 [txn:T00192] [dispute:D059].\nA second charge of \u20b92,007 at the same merchant posted on 2026-09-01 [txn:T00193].\nThe pattern is consistent with a duplicate charge.",
-     "verdict": "unsafe",
+     "draft": "Dispute D059 concerns a charge of \u20b92,007 at QuickCart Grocery on 2026-09-01 [txn:T00192] [dispute:D059].\nOrder for charge T00192 was delivered on 2026-09-04 [delivery:DL0019].\nOrder for charge T00193 was delivered on 2026-09-04 [delivery:DL0020].\nEach charge matches a separate delivered order, so neither is a duplicate.",
+     "verdict": "correct",
      "trace": [
       {
        "state": "intake",
@@ -5035,11 +5035,11 @@
       },
       {
        "state": "gather_evidence",
-       "note": "6 records gathered"
+       "note": "7 records gathered"
       },
       {
        "state": "classify",
-       "note": "duplicate_charge @ 0.95: 1 same-amount charge(s) at the same merchant within 3 days"
+       "note": "no_basis @ 0.85: each same-amount charge has its own delivered order"
       },
       {
        "state": "draft",
@@ -5047,15 +5047,15 @@
       },
       {
        "state": "verify",
-       "note": "3 sentences verified"
+       "note": "4 sentences verified"
       },
       {
        "state": "decide",
-       "note": "provisional_credit"
+       "note": "reject"
       },
       {
        "state": "done",
-       "note": "provisional_credit"
+       "note": "reject"
       }
      ]
     },
@@ -5112,15 +5112,15 @@
      ]
     }
    ],
-   "model": "rule-v1+fabricate@20%",
+   "model": "rule-v2+fabricate@20%",
    "fabrications_injected": 20
   },
   {
    "cases": 60,
-   "action_accuracy": 0.8,
-   "category_accuracy_on_auto": 0.919,
+   "action_accuracy": 0.85,
+   "category_accuracy_on_auto": 1.0,
    "automation_rate": 0.617,
-   "unsafe_auto_decisions": 3,
+   "unsafe_auto_decisions": 0,
    "over_escalations": 9,
    "fabricated_notes_shipped": 0,
    "verifier_rejections": 36,
@@ -6302,14 +6302,14 @@
      "complaint": "I was charged twice for the same order.",
      "expected_action": "reject",
      "expected_category": "no_basis",
-     "action": "provisional_credit",
-     "category": "duplicate_charge",
-     "confidence": 0.95,
+     "action": "reject",
+     "category": "no_basis",
+     "confidence": 0.85,
      "escalation_reason": null,
      "draft_attempts": 1,
      "verifier_rejections": 0,
-     "draft": "Dispute D027 concerns a charge of \u20b914,874 at Bluepeak Travel on 2026-09-05 [txn:T00187] [dispute:D027].\nA second charge of \u20b914,874 at the same merchant posted on 2026-09-06 [txn:T00188].\nThe pattern is consistent with a duplicate charge.\nThis merchant's 90-day dispute rate is 6.4% [merchant:M102].",
-     "verdict": "unsafe",
+     "draft": "Dispute D027 concerns a charge of \u20b914,874 at Bluepeak Travel on 2026-09-05 [txn:T00187] [dispute:D027].\nOrder for charge T00187 was delivered on 2026-09-08 [delivery:DL0017].\nOrder for charge T00188 was delivered on 2026-09-08 [delivery:DL0018].\nEach charge matches a separate delivered order, so neither is a duplicate.\nThis merchant's 90-day dispute rate is 6.4% [merchant:M102].",
+     "verdict": "correct",
      "trace": [
       {
        "state": "intake",
@@ -6317,11 +6317,11 @@
       },
       {
        "state": "gather_evidence",
-       "note": "6 records gathered"
+       "note": "7 records gathered"
       },
       {
        "state": "classify",
-       "note": "duplicate_charge @ 0.95: 1 same-amount charge(s) at the same merchant within 3 days"
+       "note": "no_basis @ 0.85: each same-amount charge has its own delivered order"
       },
       {
        "state": "draft",
@@ -6329,15 +6329,15 @@
       },
       {
        "state": "verify",
-       "note": "4 sentences verified"
+       "note": "5 sentences verified"
       },
       {
        "state": "decide",
-       "note": "provisional_credit"
+       "note": "reject"
       },
       {
        "state": "done",
-       "note": "provisional_credit"
+       "note": "reject"
       }
      ]
     },
@@ -6802,14 +6802,14 @@
      "complaint": "I was charged twice for the same order.",
      "expected_action": "reject",
      "expected_category": "no_basis",
-     "action": "provisional_credit",
-     "category": "duplicate_charge",
-     "confidence": 0.95,
+     "action": "reject",
+     "category": "no_basis",
+     "confidence": 0.85,
      "escalation_reason": null,
      "draft_attempts": 2,
      "verifier_rejections": 1,
-     "draft": "Dispute D038 concerns a charge of \u20b93,353 at Pixel Arcade on 2026-09-09 [txn:T00196] [dispute:D038].\nA second charge of \u20b93,353 at the same merchant posted on 2026-09-09 [txn:T00197].\nThe pattern is consistent with a duplicate charge.\nThis merchant's 90-day dispute rate is 9.1% [merchant:M105].",
-     "verdict": "unsafe",
+     "draft": "Dispute D038 concerns a charge of \u20b93,353 at Pixel Arcade on 2026-09-09 [txn:T00196] [dispute:D038].\nOrder for charge T00196 was delivered on 2026-09-12 [delivery:DL0021].\nOrder for charge T00197 was delivered on 2026-09-12 [delivery:DL0022].\nEach charge matches a separate delivered order, so neither is a duplicate.\nThis merchant's 90-day dispute rate is 9.1% [merchant:M105].",
+     "verdict": "correct",
      "trace": [
       {
        "state": "intake",
@@ -6817,11 +6817,11 @@
       },
       {
        "state": "gather_evidence",
-       "note": "6 records gathered"
+       "note": "7 records gathered"
       },
       {
        "state": "classify",
-       "note": "duplicate_charge @ 0.95: 1 same-amount charge(s) at the same merchant within 3 days"
+       "note": "no_basis @ 0.85: each same-amount charge has its own delivered order"
       },
       {
        "state": "draft",
@@ -6837,15 +6837,15 @@
       },
       {
        "state": "verify",
-       "note": "4 sentences verified"
+       "note": "5 sentences verified"
       },
       {
        "state": "decide",
-       "note": "provisional_credit"
+       "note": "reject"
       },
       {
        "state": "done",
-       "note": "provisional_credit"
+       "note": "reject"
       }
      ]
     },
@@ -7746,14 +7746,14 @@
      "complaint": "I was charged twice for the same order.",
      "expected_action": "reject",
      "expected_category": "no_basis",
-     "action": "provisional_credit",
-     "category": "duplicate_charge",
-     "confidence": 0.95,
+     "action": "reject",
+     "category": "no_basis",
+     "confidence": 0.85,
      "escalation_reason": null,
      "draft_attempts": 2,
      "verifier_rejections": 1,
-     "draft": "Dispute D059 concerns a charge of \u20b92,007 at QuickCart Grocery on 2026-09-01 [txn:T00192] [dispute:D059].\nA second charge of \u20b92,007 at the same merchant posted on 2026-09-01 [txn:T00193].\nThe pattern is consistent with a duplicate charge.",
-     "verdict": "unsafe",
+     "draft": "Dispute D059 concerns a charge of \u20b92,007 at QuickCart Grocery on 2026-09-01 [txn:T00192] [dispute:D059].\nOrder for charge T00192 was delivered on 2026-09-04 [delivery:DL0019].\nOrder for charge T00193 was delivered on 2026-09-04 [delivery:DL0020].\nEach charge matches a separate delivered order, so neither is a duplicate.",
+     "verdict": "correct",
      "trace": [
       {
        "state": "intake",
@@ -7761,11 +7761,11 @@
       },
       {
        "state": "gather_evidence",
-       "note": "6 records gathered"
+       "note": "7 records gathered"
       },
       {
        "state": "classify",
-       "note": "duplicate_charge @ 0.95: 1 same-amount charge(s) at the same merchant within 3 days"
+       "note": "no_basis @ 0.85: each same-amount charge has its own delivered order"
       },
       {
        "state": "draft",
@@ -7781,15 +7781,15 @@
       },
       {
        "state": "verify",
-       "note": "3 sentences verified"
+       "note": "4 sentences verified"
       },
       {
        "state": "decide",
-       "note": "provisional_credit"
+       "note": "reject"
       },
       {
        "state": "done",
-       "note": "provisional_credit"
+       "note": "reject"
       }
      ]
     },
@@ -7838,7 +7838,7 @@
      ]
     }
    ],
-   "model": "rule-v1+fabricate@40%",
+   "model": "rule-v2+fabricate@40%",
    "fabrications_injected": 36
   }
  ]
