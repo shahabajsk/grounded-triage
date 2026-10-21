@@ -1,0 +1,2700 @@
+{
+ "customers": [
+  {
+   "id": "C001",
+   "name": "Arjun Das",
+   "home_city": "Bengaluru",
+   "known_devices": [
+    "DEV-0cce35"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C002",
+   "name": "Kiran Singh",
+   "home_city": "Chennai",
+   "known_devices": [
+    "DEV-70dd97"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C003",
+   "name": "Diya Bose",
+   "home_city": "Kolkata",
+   "known_devices": [
+    "DEV-876f47"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C004",
+   "name": "Tara Khan",
+   "home_city": "Hyderabad",
+   "known_devices": [
+    "DEV-e82565"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C005",
+   "name": "Isha Sharma",
+   "home_city": "Kolkata",
+   "known_devices": [
+    "DEV-1ca3e6"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C006",
+   "name": "Tara Das",
+   "home_city": "Chennai",
+   "known_devices": [
+    "DEV-cc7e39"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C007",
+   "name": "Dev Singh",
+   "home_city": "Bengaluru",
+   "known_devices": [
+    "DEV-c50038"
+   ],
+   "prior_disputes": 1
+  },
+  {
+   "id": "C008",
+   "name": "Sara Nair",
+   "home_city": "Mumbai",
+   "known_devices": [
+    "DEV-367b7a"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C009",
+   "name": "Kabir Nair",
+   "home_city": "Bengaluru",
+   "known_devices": [
+    "DEV-f8d3bd"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C010",
+   "name": "Kabir Gupta",
+   "home_city": "Pune",
+   "known_devices": [
+    "DEV-730b87"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C011",
+   "name": "Arjun Bose",
+   "home_city": "Bengaluru",
+   "known_devices": [
+    "DEV-79dbbe"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C012",
+   "name": "Diya Reddy",
+   "home_city": "Gurugram",
+   "known_devices": [
+    "DEV-3263d3"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C013",
+   "name": "Ananya Reddy",
+   "home_city": "Bengaluru",
+   "known_devices": [
+    "DEV-7906bb"
+   ],
+   "prior_disputes": 1
+  },
+  {
+   "id": "C014",
+   "name": "Naina Bose",
+   "home_city": "Hyderabad",
+   "known_devices": [
+    "DEV-d8946f"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C015",
+   "name": "Dev Iyer",
+   "home_city": "Bengaluru",
+   "known_devices": [
+    "DEV-786ca5"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C016",
+   "name": "Aarav Bose",
+   "home_city": "Kolkata",
+   "known_devices": [
+    "DEV-25245f"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C017",
+   "name": "Meera Khan",
+   "home_city": "Gurugram",
+   "known_devices": [
+    "DEV-99482b"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C018",
+   "name": "Arjun Sharma",
+   "home_city": "Bengaluru",
+   "known_devices": [
+    "DEV-d8deec"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C019",
+   "name": "Diya Menon",
+   "home_city": "Chennai",
+   "known_devices": [
+    "DEV-41408a"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C020",
+   "name": "Ananya Khan",
+   "home_city": "Mumbai",
+   "known_devices": [
+    "DEV-7935a2"
+   ],
+   "prior_disputes": 1
+  },
+  {
+   "id": "C021",
+   "name": "Tara Menon",
+   "home_city": "Pune",
+   "known_devices": [
+    "DEV-ebacdd"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C022",
+   "name": "Arjun Khan",
+   "home_city": "Gurugram",
+   "known_devices": [
+    "DEV-3b0e12"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C023",
+   "name": "Riya Iyer",
+   "home_city": "Pune",
+   "known_devices": [
+    "DEV-ba7b3c"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C024",
+   "name": "Pooja Singh",
+   "home_city": "Chennai",
+   "known_devices": [
+    "DEV-591a1c"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C025",
+   "name": "Kabir Menon",
+   "home_city": "Jaipur",
+   "known_devices": [
+    "DEV-56e1ca"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C026",
+   "name": "Riya Singh",
+   "home_city": "Bengaluru",
+   "known_devices": [
+    "DEV-e92c4e"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C027",
+   "name": "Diya Nair",
+   "home_city": "Mumbai",
+   "known_devices": [
+    "DEV-edd97b"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C028",
+   "name": "Isha Menon",
+   "home_city": "Jaipur",
+   "known_devices": [
+    "DEV-84b4c1"
+   ],
+   "prior_disputes": 1
+  },
+  {
+   "id": "C029",
+   "name": "Riya Reddy",
+   "home_city": "Pune",
+   "known_devices": [
+    "DEV-20e29a"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C030",
+   "name": "Naina Nair",
+   "home_city": "Chennai",
+   "known_devices": [
+    "DEV-d689f5"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C031",
+   "name": "Kabir Reddy",
+   "home_city": "Chennai",
+   "known_devices": [
+    "DEV-0de051"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C032",
+   "name": "Aarav Nair",
+   "home_city": "Bengaluru",
+   "known_devices": [
+    "DEV-f0cc0e"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C033",
+   "name": "Tara Khan",
+   "home_city": "Jaipur",
+   "known_devices": [
+    "DEV-83325f"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C034",
+   "name": "Kabir Singh",
+   "home_city": "Chennai",
+   "known_devices": [
+    "DEV-658b7b"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C035",
+   "name": "Tara Bose",
+   "home_city": "Bengaluru",
+   "known_devices": [
+    "DEV-ddf6c7"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C036",
+   "name": "Isha Bose",
+   "home_city": "Hyderabad",
+   "known_devices": [
+    "DEV-e6cf85"
+   ],
+   "prior_disputes": 1
+  },
+  {
+   "id": "C037",
+   "name": "Aditya Das",
+   "home_city": "Hyderabad",
+   "known_devices": [
+    "DEV-053286"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C038",
+   "name": "Kabir Menon",
+   "home_city": "Jaipur",
+   "known_devices": [
+    "DEV-08d41b"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C039",
+   "name": "Arjun Das",
+   "home_city": "Hyderabad",
+   "known_devices": [
+    "DEV-9cfdb0"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C040",
+   "name": "Ananya Menon",
+   "home_city": "Pune",
+   "known_devices": [
+    "DEV-b8c567"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C041",
+   "name": "Diya Menon",
+   "home_city": "Kolkata",
+   "known_devices": [
+    "DEV-5e64ea"
+   ],
+   "prior_disputes": 1
+  },
+  {
+   "id": "C042",
+   "name": "Isha Iyer",
+   "home_city": "Hyderabad",
+   "known_devices": [
+    "DEV-2b9cd4"
+   ],
+   "prior_disputes": 1
+  },
+  {
+   "id": "C043",
+   "name": "Arjun Iyer",
+   "home_city": "Pune",
+   "known_devices": [
+    "DEV-6c0b7e"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C044",
+   "name": "Diya Das",
+   "home_city": "Jaipur",
+   "known_devices": [
+    "DEV-951ff0"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C045",
+   "name": "Meera Nair",
+   "home_city": "Pune",
+   "known_devices": [
+    "DEV-d9abd0"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C046",
+   "name": "Meera Bose",
+   "home_city": "Hyderabad",
+   "known_devices": [
+    "DEV-e0d8b8"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C047",
+   "name": "Isha Singh",
+   "home_city": "Gurugram",
+   "known_devices": [
+    "DEV-2ec265"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C048",
+   "name": "Kabir Bose",
+   "home_city": "Chennai",
+   "known_devices": [
+    "DEV-fbc37b"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C049",
+   "name": "Kiran Iyer",
+   "home_city": "Chennai",
+   "known_devices": [
+    "DEV-12c9f7"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C050",
+   "name": "Vihaan Menon",
+   "home_city": "Jaipur",
+   "known_devices": [
+    "DEV-1a6cdb"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C051",
+   "name": "Isha Iyer",
+   "home_city": "Chennai",
+   "known_devices": [
+    "DEV-2fb91d"
+   ],
+   "prior_disputes": 4
+  },
+  {
+   "id": "C052",
+   "name": "Kabir Menon",
+   "home_city": "Pune",
+   "known_devices": [
+    "DEV-45e46b"
+   ],
+   "prior_disputes": 4
+  },
+  {
+   "id": "C053",
+   "name": "Kiran Nair",
+   "home_city": "Jaipur",
+   "known_devices": [
+    "DEV-4c14b2"
+   ],
+   "prior_disputes": 4
+  },
+  {
+   "id": "C054",
+   "name": "Dev Khan",
+   "home_city": "Jaipur",
+   "known_devices": [
+    "DEV-c330ba"
+   ],
+   "prior_disputes": 4
+  },
+  {
+   "id": "C055",
+   "name": "Neel Singh",
+   "home_city": "Jaipur",
+   "known_devices": [
+    "DEV-87b110"
+   ],
+   "prior_disputes": 1
+  },
+  {
+   "id": "C056",
+   "name": "Kabir Reddy",
+   "home_city": "Hyderabad",
+   "known_devices": [
+    "DEV-747914"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C057",
+   "name": "Aditya Reddy",
+   "home_city": "Mumbai",
+   "known_devices": [
+    "DEV-7d0772"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C058",
+   "name": "Aarav Bose",
+   "home_city": "Jaipur",
+   "known_devices": [
+    "DEV-82ba2e"
+   ],
+   "prior_disputes": 0
+  },
+  {
+   "id": "C059",
+   "name": "Sara Sharma",
+   "home_city": "Kolkata",
+   "known_devices": [
+    "DEV-977c95"
+   ],
+   "prior_disputes": 1
+  },
+  {
+   "id": "C060",
+   "name": "Sara Bose",
+   "home_city": "Bengaluru",
+   "known_devices": [
+    "DEV-142f32"
+   ],
+   "prior_disputes": 0
+  }
+ ],
+ "merchants": [
+  {
+   "id": "M100",
+   "name": "Northwind Electronics",
+   "category": "electronics",
+   "dispute_rate": 0.031
+  },
+  {
+   "id": "M101",
+   "name": "Saffron Kitchen",
+   "category": "food",
+   "dispute_rate": 0.012
+  },
+  {
+   "id": "M102",
+   "name": "Bluepeak Travel",
+   "category": "travel",
+   "dispute_rate": 0.064
+  },
+  {
+   "id": "M103",
+   "name": "Urban Thread",
+   "category": "apparel",
+   "dispute_rate": 0.022
+  },
+  {
+   "id": "M104",
+   "name": "QuickCart Grocery",
+   "category": "grocery",
+   "dispute_rate": 0.008
+  },
+  {
+   "id": "M105",
+   "name": "Pixel Arcade",
+   "category": "digital_goods",
+   "dispute_rate": 0.091
+  },
+  {
+   "id": "M106",
+   "name": "Monsoon Furnishings",
+   "category": "home",
+   "dispute_rate": 0.027
+  },
+  {
+   "id": "M107",
+   "name": "Velocity Fitness",
+   "category": "subscription",
+   "dispute_rate": 0.071
+  }
+ ],
+ "transactions": [
+  {
+   "id": "T00001",
+   "customer_id": "C001",
+   "merchant_id": "M100",
+   "amount": 394,
+   "date": "2026-08-31",
+   "channel": "pos",
+   "device_id": "DEV-0cce35",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00002",
+   "customer_id": "C001",
+   "merchant_id": "M103",
+   "amount": 4289,
+   "date": "2026-08-14",
+   "channel": "pos",
+   "device_id": "DEV-0cce35",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00003",
+   "customer_id": "C001",
+   "merchant_id": "M102",
+   "amount": 3248,
+   "date": "2026-09-07",
+   "channel": "ecom",
+   "device_id": "DEV-65ce0c",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00004",
+   "customer_id": "C002",
+   "merchant_id": "M102",
+   "amount": 1913,
+   "date": "2026-08-13",
+   "channel": "ecom",
+   "device_id": "DEV-70dd97",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00005",
+   "customer_id": "C002",
+   "merchant_id": "M101",
+   "amount": 909,
+   "date": "2026-08-25",
+   "channel": "pos",
+   "device_id": "DEV-70dd97",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00006",
+   "customer_id": "C002",
+   "merchant_id": "M100",
+   "amount": 14248,
+   "date": "2026-09-11",
+   "channel": "ecom",
+   "device_id": "DEV-b7cc25",
+   "city": "Mumbai"
+  },
+  {
+   "id": "T00007",
+   "customer_id": "C003",
+   "merchant_id": "M105",
+   "amount": 4879,
+   "date": "2026-08-26",
+   "channel": "upi",
+   "device_id": "DEV-876f47",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00008",
+   "customer_id": "C003",
+   "merchant_id": "M101",
+   "amount": 525,
+   "date": "2026-08-11",
+   "channel": "pos",
+   "device_id": "DEV-876f47",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00009",
+   "customer_id": "C003",
+   "merchant_id": "M104",
+   "amount": 803,
+   "date": "2026-08-25",
+   "channel": "pos",
+   "device_id": "DEV-876f47",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00010",
+   "customer_id": "C003",
+   "merchant_id": "M106",
+   "amount": 10006,
+   "date": "2026-09-06",
+   "channel": "ecom",
+   "device_id": "DEV-c29fe7",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00011",
+   "customer_id": "C004",
+   "merchant_id": "M101",
+   "amount": 5140,
+   "date": "2026-08-20",
+   "channel": "pos",
+   "device_id": "DEV-e82565",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00012",
+   "customer_id": "C004",
+   "merchant_id": "M103",
+   "amount": 1488,
+   "date": "2026-08-26",
+   "channel": "ecom",
+   "device_id": "DEV-e82565",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00013",
+   "customer_id": "C004",
+   "merchant_id": "M104",
+   "amount": 5392,
+   "date": "2026-08-18",
+   "channel": "upi",
+   "device_id": "DEV-e82565",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00014",
+   "customer_id": "C004",
+   "merchant_id": "M105",
+   "amount": 9148,
+   "date": "2026-09-14",
+   "channel": "ecom",
+   "device_id": "DEV-707166",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00015",
+   "customer_id": "C005",
+   "merchant_id": "M105",
+   "amount": 1891,
+   "date": "2026-08-24",
+   "channel": "ecom",
+   "device_id": "DEV-1ca3e6",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00016",
+   "customer_id": "C005",
+   "merchant_id": "M106",
+   "amount": 5416,
+   "date": "2026-08-30",
+   "channel": "pos",
+   "device_id": "DEV-1ca3e6",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00017",
+   "customer_id": "C005",
+   "merchant_id": "M104",
+   "amount": 1293,
+   "date": "2026-09-06",
+   "channel": "upi",
+   "device_id": "DEV-1ca3e6",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00018",
+   "customer_id": "C005",
+   "merchant_id": "M106",
+   "amount": 2568,
+   "date": "2026-09-18",
+   "channel": "ecom",
+   "device_id": "DEV-868611",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00019",
+   "customer_id": "C006",
+   "merchant_id": "M102",
+   "amount": 5290,
+   "date": "2026-08-27",
+   "channel": "upi",
+   "device_id": "DEV-cc7e39",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00020",
+   "customer_id": "C006",
+   "merchant_id": "M107",
+   "amount": 1943,
+   "date": "2026-09-06",
+   "channel": "ecom",
+   "device_id": "DEV-d82559",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00021",
+   "customer_id": "C007",
+   "merchant_id": "M101",
+   "amount": 5734,
+   "date": "2026-09-14",
+   "channel": "ecom",
+   "device_id": "DEV-c50038",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00022",
+   "customer_id": "C007",
+   "merchant_id": "M105",
+   "amount": 1063,
+   "date": "2026-09-22",
+   "channel": "ecom",
+   "device_id": "DEV-c50038",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00023",
+   "customer_id": "C007",
+   "merchant_id": "M102",
+   "amount": 3866,
+   "date": "2026-10-01",
+   "channel": "upi",
+   "device_id": "DEV-c50038",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00024",
+   "customer_id": "C007",
+   "merchant_id": "M104",
+   "amount": 776,
+   "date": "2026-10-06",
+   "channel": "ecom",
+   "device_id": "DEV-86daed",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00025",
+   "customer_id": "C008",
+   "merchant_id": "M100",
+   "amount": 5056,
+   "date": "2026-09-09",
+   "channel": "ecom",
+   "device_id": "DEV-367b7a",
+   "city": "Mumbai"
+  },
+  {
+   "id": "T00026",
+   "customer_id": "C008",
+   "merchant_id": "M100",
+   "amount": 1066,
+   "date": "2026-09-08",
+   "channel": "ecom",
+   "device_id": "DEV-367b7a",
+   "city": "Mumbai"
+  },
+  {
+   "id": "T00027",
+   "customer_id": "C008",
+   "merchant_id": "M103",
+   "amount": 624,
+   "date": "2026-09-12",
+   "channel": "upi",
+   "device_id": "DEV-367b7a",
+   "city": "Mumbai"
+  },
+  {
+   "id": "T00028",
+   "customer_id": "C008",
+   "merchant_id": "M102",
+   "amount": 5693,
+   "date": "2026-09-24",
+   "channel": "ecom",
+   "device_id": "DEV-2852d8",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00029",
+   "customer_id": "C009",
+   "merchant_id": "M106",
+   "amount": 1885,
+   "date": "2026-09-09",
+   "channel": "upi",
+   "device_id": "DEV-f8d3bd",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00030",
+   "customer_id": "C009",
+   "merchant_id": "M103",
+   "amount": 5990,
+   "date": "2026-09-17",
+   "channel": "ecom",
+   "device_id": "DEV-f8d3bd",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00031",
+   "customer_id": "C009",
+   "merchant_id": "M105",
+   "amount": 3738,
+   "date": "2026-09-10",
+   "channel": "ecom",
+   "device_id": "DEV-f8d3bd",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00032",
+   "customer_id": "C009",
+   "merchant_id": "M102",
+   "amount": 5810,
+   "date": "2026-10-01",
+   "channel": "ecom",
+   "device_id": "DEV-3df443",
+   "city": "Pune"
+  },
+  {
+   "id": "T00033",
+   "customer_id": "C010",
+   "merchant_id": "M100",
+   "amount": 2025,
+   "date": "2026-10-01",
+   "channel": "pos",
+   "device_id": "DEV-730b87",
+   "city": "Pune"
+  },
+  {
+   "id": "T00034",
+   "customer_id": "C010",
+   "merchant_id": "M103",
+   "amount": 7616,
+   "date": "2026-10-08",
+   "channel": "ecom",
+   "device_id": "DEV-a92dec",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00035",
+   "customer_id": "C011",
+   "merchant_id": "M106",
+   "amount": 1709,
+   "date": "2026-09-29",
+   "channel": "pos",
+   "device_id": "DEV-79dbbe",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00036",
+   "customer_id": "C011",
+   "merchant_id": "M106",
+   "amount": 3052,
+   "date": "2026-09-19",
+   "channel": "ecom",
+   "device_id": "DEV-79dbbe",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00037",
+   "customer_id": "C011",
+   "merchant_id": "M102",
+   "amount": 15888,
+   "date": "2026-10-07",
+   "channel": "ecom",
+   "device_id": "DEV-79dbbe",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00038",
+   "customer_id": "C011",
+   "merchant_id": "M102",
+   "amount": 15888,
+   "date": "2026-10-08",
+   "channel": "ecom",
+   "device_id": "DEV-79dbbe",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00039",
+   "customer_id": "C012",
+   "merchant_id": "M107",
+   "amount": 1298,
+   "date": "2026-08-29",
+   "channel": "pos",
+   "device_id": "DEV-3263d3",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00040",
+   "customer_id": "C012",
+   "merchant_id": "M104",
+   "amount": 3939,
+   "date": "2026-09-04",
+   "channel": "pos",
+   "device_id": "DEV-3263d3",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00041",
+   "customer_id": "C012",
+   "merchant_id": "M107",
+   "amount": 4658,
+   "date": "2026-09-08",
+   "channel": "pos",
+   "device_id": "DEV-3263d3",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00042",
+   "customer_id": "C012",
+   "merchant_id": "M101",
+   "amount": 6678,
+   "date": "2026-09-16",
+   "channel": "ecom",
+   "device_id": "DEV-3263d3",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00043",
+   "customer_id": "C012",
+   "merchant_id": "M101",
+   "amount": 6678,
+   "date": "2026-09-16",
+   "channel": "ecom",
+   "device_id": "DEV-3263d3",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00044",
+   "customer_id": "C013",
+   "merchant_id": "M106",
+   "amount": 167,
+   "date": "2026-08-28",
+   "channel": "ecom",
+   "device_id": "DEV-7906bb",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00045",
+   "customer_id": "C013",
+   "merchant_id": "M107",
+   "amount": 13541,
+   "date": "2026-09-14",
+   "channel": "ecom",
+   "device_id": "DEV-7906bb",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00046",
+   "customer_id": "C013",
+   "merchant_id": "M107",
+   "amount": 13541,
+   "date": "2026-09-15",
+   "channel": "ecom",
+   "device_id": "DEV-7906bb",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00047",
+   "customer_id": "C014",
+   "merchant_id": "M100",
+   "amount": 2719,
+   "date": "2026-09-13",
+   "channel": "pos",
+   "device_id": "DEV-d8946f",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00048",
+   "customer_id": "C014",
+   "merchant_id": "M107",
+   "amount": 4269,
+   "date": "2026-08-29",
+   "channel": "pos",
+   "device_id": "DEV-d8946f",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00049",
+   "customer_id": "C014",
+   "merchant_id": "M100",
+   "amount": 4310,
+   "date": "2026-09-12",
+   "channel": "pos",
+   "device_id": "DEV-d8946f",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00050",
+   "customer_id": "C014",
+   "merchant_id": "M103",
+   "amount": 7533,
+   "date": "2026-09-19",
+   "channel": "ecom",
+   "device_id": "DEV-d8946f",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00051",
+   "customer_id": "C014",
+   "merchant_id": "M103",
+   "amount": 7533,
+   "date": "2026-09-19",
+   "channel": "ecom",
+   "device_id": "DEV-d8946f",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00052",
+   "customer_id": "C015",
+   "merchant_id": "M105",
+   "amount": 2286,
+   "date": "2026-09-29",
+   "channel": "upi",
+   "device_id": "DEV-786ca5",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00053",
+   "customer_id": "C015",
+   "merchant_id": "M105",
+   "amount": 2105,
+   "date": "2026-09-27",
+   "channel": "ecom",
+   "device_id": "DEV-786ca5",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00054",
+   "customer_id": "C015",
+   "merchant_id": "M102",
+   "amount": 5652,
+   "date": "2026-09-15",
+   "channel": "ecom",
+   "device_id": "DEV-786ca5",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00055",
+   "customer_id": "C015",
+   "merchant_id": "M100",
+   "amount": 3086,
+   "date": "2026-10-10",
+   "channel": "ecom",
+   "device_id": "DEV-786ca5",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00056",
+   "customer_id": "C015",
+   "merchant_id": "M100",
+   "amount": 3086,
+   "date": "2026-10-11",
+   "channel": "ecom",
+   "device_id": "DEV-786ca5",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00057",
+   "customer_id": "C016",
+   "merchant_id": "M102",
+   "amount": 3009,
+   "date": "2026-09-28",
+   "channel": "pos",
+   "device_id": "DEV-25245f",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00058",
+   "customer_id": "C016",
+   "merchant_id": "M105",
+   "amount": 2484,
+   "date": "2026-09-25",
+   "channel": "ecom",
+   "device_id": "DEV-25245f",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00059",
+   "customer_id": "C016",
+   "merchant_id": "M101",
+   "amount": 7384,
+   "date": "2026-10-05",
+   "channel": "ecom",
+   "device_id": "DEV-25245f",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00060",
+   "customer_id": "C016",
+   "merchant_id": "M101",
+   "amount": 7384,
+   "date": "2026-10-06",
+   "channel": "ecom",
+   "device_id": "DEV-25245f",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00061",
+   "customer_id": "C017",
+   "merchant_id": "M103",
+   "amount": 2958,
+   "date": "2026-08-27",
+   "channel": "upi",
+   "device_id": "DEV-99482b",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00062",
+   "customer_id": "C017",
+   "merchant_id": "M104",
+   "amount": 4290,
+   "date": "2026-08-18",
+   "channel": "ecom",
+   "device_id": "DEV-99482b",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00063",
+   "customer_id": "C017",
+   "merchant_id": "M101",
+   "amount": 5493,
+   "date": "2026-09-07",
+   "channel": "ecom",
+   "device_id": "DEV-99482b",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00064",
+   "customer_id": "C017",
+   "merchant_id": "M101",
+   "amount": 5493,
+   "date": "2026-09-07",
+   "channel": "ecom",
+   "device_id": "DEV-99482b",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00065",
+   "customer_id": "C018",
+   "merchant_id": "M107",
+   "amount": 4669,
+   "date": "2026-08-13",
+   "channel": "ecom",
+   "device_id": "DEV-d8deec",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00066",
+   "customer_id": "C018",
+   "merchant_id": "M100",
+   "amount": 1066,
+   "date": "2026-09-02",
+   "channel": "upi",
+   "device_id": "DEV-d8deec",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00067",
+   "customer_id": "C018",
+   "merchant_id": "M102",
+   "amount": 4619,
+   "date": "2026-09-03",
+   "channel": "ecom",
+   "device_id": "DEV-d8deec",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00068",
+   "customer_id": "C018",
+   "merchant_id": "M105",
+   "amount": 8983,
+   "date": "2026-09-09",
+   "channel": "ecom",
+   "device_id": "DEV-d8deec",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00069",
+   "customer_id": "C018",
+   "merchant_id": "M105",
+   "amount": 8983,
+   "date": "2026-09-09",
+   "channel": "ecom",
+   "device_id": "DEV-d8deec",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00070",
+   "customer_id": "C019",
+   "merchant_id": "M101",
+   "amount": 3047,
+   "date": "2026-08-25",
+   "channel": "upi",
+   "device_id": "DEV-41408a",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00071",
+   "customer_id": "C019",
+   "merchant_id": "M100",
+   "amount": 7283,
+   "date": "2026-09-23",
+   "channel": "ecom",
+   "device_id": "DEV-41408a",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00072",
+   "customer_id": "C020",
+   "merchant_id": "M103",
+   "amount": 2335,
+   "date": "2026-09-02",
+   "channel": "upi",
+   "device_id": "DEV-7935a2",
+   "city": "Mumbai"
+  },
+  {
+   "id": "T00073",
+   "customer_id": "C020",
+   "merchant_id": "M101",
+   "amount": 3283,
+   "date": "2026-09-06",
+   "channel": "ecom",
+   "device_id": "DEV-7935a2",
+   "city": "Mumbai"
+  },
+  {
+   "id": "T00074",
+   "customer_id": "C020",
+   "merchant_id": "M100",
+   "amount": 11285,
+   "date": "2026-09-12",
+   "channel": "ecom",
+   "device_id": "DEV-7935a2",
+   "city": "Mumbai"
+  },
+  {
+   "id": "T00075",
+   "customer_id": "C021",
+   "merchant_id": "M104",
+   "amount": 718,
+   "date": "2026-08-04",
+   "channel": "ecom",
+   "device_id": "DEV-ebacdd",
+   "city": "Pune"
+  },
+  {
+   "id": "T00076",
+   "customer_id": "C021",
+   "merchant_id": "M105",
+   "amount": 5405,
+   "date": "2026-08-12",
+   "channel": "ecom",
+   "device_id": "DEV-ebacdd",
+   "city": "Pune"
+  },
+  {
+   "id": "T00077",
+   "customer_id": "C021",
+   "merchant_id": "M103",
+   "amount": 6728,
+   "date": "2026-09-02",
+   "channel": "ecom",
+   "device_id": "DEV-ebacdd",
+   "city": "Pune"
+  },
+  {
+   "id": "T00078",
+   "customer_id": "C022",
+   "merchant_id": "M105",
+   "amount": 3724,
+   "date": "2026-08-14",
+   "channel": "upi",
+   "device_id": "DEV-3b0e12",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00079",
+   "customer_id": "C022",
+   "merchant_id": "M101",
+   "amount": 3305,
+   "date": "2026-08-15",
+   "channel": "pos",
+   "device_id": "DEV-3b0e12",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00080",
+   "customer_id": "C022",
+   "merchant_id": "M104",
+   "amount": 513,
+   "date": "2026-08-11",
+   "channel": "ecom",
+   "device_id": "DEV-3b0e12",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00081",
+   "customer_id": "C022",
+   "merchant_id": "M100",
+   "amount": 14639,
+   "date": "2026-09-07",
+   "channel": "ecom",
+   "device_id": "DEV-3b0e12",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00082",
+   "customer_id": "C023",
+   "merchant_id": "M106",
+   "amount": 2822,
+   "date": "2026-08-22",
+   "channel": "upi",
+   "device_id": "DEV-ba7b3c",
+   "city": "Pune"
+  },
+  {
+   "id": "T00083",
+   "customer_id": "C023",
+   "merchant_id": "M104",
+   "amount": 4691,
+   "date": "2026-08-30",
+   "channel": "pos",
+   "device_id": "DEV-ba7b3c",
+   "city": "Pune"
+  },
+  {
+   "id": "T00084",
+   "customer_id": "C023",
+   "merchant_id": "M105",
+   "amount": 10240,
+   "date": "2026-09-08",
+   "channel": "ecom",
+   "device_id": "DEV-ba7b3c",
+   "city": "Pune"
+  },
+  {
+   "id": "T00085",
+   "customer_id": "C024",
+   "merchant_id": "M103",
+   "amount": 3671,
+   "date": "2026-09-13",
+   "channel": "upi",
+   "device_id": "DEV-591a1c",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00086",
+   "customer_id": "C024",
+   "merchant_id": "M105",
+   "amount": 3959,
+   "date": "2026-09-17",
+   "channel": "ecom",
+   "device_id": "DEV-591a1c",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00087",
+   "customer_id": "C024",
+   "merchant_id": "M106",
+   "amount": 413,
+   "date": "2026-10-06",
+   "channel": "ecom",
+   "device_id": "DEV-591a1c",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00088",
+   "customer_id": "C025",
+   "merchant_id": "M102",
+   "amount": 350,
+   "date": "2026-09-10",
+   "channel": "pos",
+   "device_id": "DEV-56e1ca",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00089",
+   "customer_id": "C025",
+   "merchant_id": "M101",
+   "amount": 10571,
+   "date": "2026-09-16",
+   "channel": "ecom",
+   "device_id": "DEV-56e1ca",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00090",
+   "customer_id": "C026",
+   "merchant_id": "M100",
+   "amount": 1023,
+   "date": "2026-09-03",
+   "channel": "ecom",
+   "device_id": "DEV-e92c4e",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00091",
+   "customer_id": "C026",
+   "merchant_id": "M106",
+   "amount": 13495,
+   "date": "2026-10-02",
+   "channel": "ecom",
+   "device_id": "DEV-e92c4e",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00092",
+   "customer_id": "C027",
+   "merchant_id": "M105",
+   "amount": 3775,
+   "date": "2026-09-06",
+   "channel": "upi",
+   "device_id": "DEV-edd97b",
+   "city": "Mumbai"
+  },
+  {
+   "id": "T00093",
+   "customer_id": "C027",
+   "merchant_id": "M106",
+   "amount": 4638,
+   "date": "2026-09-11",
+   "channel": "pos",
+   "device_id": "DEV-edd97b",
+   "city": "Mumbai"
+  },
+  {
+   "id": "T00094",
+   "customer_id": "C027",
+   "merchant_id": "M101",
+   "amount": 4769,
+   "date": "2026-09-30",
+   "channel": "pos",
+   "device_id": "DEV-edd97b",
+   "city": "Mumbai"
+  },
+  {
+   "id": "T00095",
+   "customer_id": "C028",
+   "merchant_id": "M104",
+   "amount": 2070,
+   "date": "2026-09-05",
+   "channel": "ecom",
+   "device_id": "DEV-84b4c1",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00096",
+   "customer_id": "C028",
+   "merchant_id": "M105",
+   "amount": 4574,
+   "date": "2026-09-11",
+   "channel": "pos",
+   "device_id": "DEV-84b4c1",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00097",
+   "customer_id": "C028",
+   "merchant_id": "M102",
+   "amount": 2044,
+   "date": "2026-09-01",
+   "channel": "upi",
+   "device_id": "DEV-84b4c1",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00098",
+   "customer_id": "C028",
+   "merchant_id": "M103",
+   "amount": 14813,
+   "date": "2026-09-18",
+   "channel": "pos",
+   "device_id": "DEV-84b4c1",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00099",
+   "customer_id": "C029",
+   "merchant_id": "M106",
+   "amount": 4934,
+   "date": "2026-08-31",
+   "channel": "pos",
+   "device_id": "DEV-20e29a",
+   "city": "Pune"
+  },
+  {
+   "id": "T00100",
+   "customer_id": "C029",
+   "merchant_id": "M106",
+   "amount": 4057,
+   "date": "2026-09-22",
+   "channel": "ecom",
+   "device_id": "DEV-20e29a",
+   "city": "Pune"
+  },
+  {
+   "id": "T00101",
+   "customer_id": "C029",
+   "merchant_id": "M107",
+   "amount": 2440,
+   "date": "2026-09-27",
+   "channel": "pos",
+   "device_id": "DEV-20e29a",
+   "city": "Pune"
+  },
+  {
+   "id": "T00102",
+   "customer_id": "C030",
+   "merchant_id": "M100",
+   "amount": 3335,
+   "date": "2026-08-31",
+   "channel": "upi",
+   "device_id": "DEV-d689f5",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00103",
+   "customer_id": "C030",
+   "merchant_id": "M106",
+   "amount": 1502,
+   "date": "2026-08-27",
+   "channel": "pos",
+   "device_id": "DEV-d689f5",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00104",
+   "customer_id": "C030",
+   "merchant_id": "M107",
+   "amount": 9343,
+   "date": "2026-09-15",
+   "channel": "pos",
+   "device_id": "DEV-d689f5",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00105",
+   "customer_id": "C031",
+   "merchant_id": "M105",
+   "amount": 1883,
+   "date": "2026-08-24",
+   "channel": "ecom",
+   "device_id": "DEV-0de051",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00106",
+   "customer_id": "C031",
+   "merchant_id": "M105",
+   "amount": 3255,
+   "date": "2026-08-30",
+   "channel": "ecom",
+   "device_id": "DEV-0de051",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00107",
+   "customer_id": "C031",
+   "merchant_id": "M107",
+   "amount": 2047,
+   "date": "2026-09-12",
+   "channel": "pos",
+   "device_id": "DEV-0de051",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00108",
+   "customer_id": "C032",
+   "merchant_id": "M100",
+   "amount": 404,
+   "date": "2026-09-03",
+   "channel": "pos",
+   "device_id": "DEV-f0cc0e",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00109",
+   "customer_id": "C032",
+   "merchant_id": "M100",
+   "amount": 5239,
+   "date": "2026-09-06",
+   "channel": "pos",
+   "device_id": "DEV-f0cc0e",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00110",
+   "customer_id": "C032",
+   "merchant_id": "M102",
+   "amount": 4029,
+   "date": "2026-08-20",
+   "channel": "pos",
+   "device_id": "DEV-f0cc0e",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00111",
+   "customer_id": "C032",
+   "merchant_id": "M105",
+   "amount": 2648,
+   "date": "2026-09-15",
+   "channel": "pos",
+   "device_id": "DEV-f0cc0e",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00112",
+   "customer_id": "C033",
+   "merchant_id": "M104",
+   "amount": 4866,
+   "date": "2026-08-25",
+   "channel": "ecom",
+   "device_id": "DEV-83325f",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00113",
+   "customer_id": "C033",
+   "merchant_id": "M102",
+   "amount": 3942,
+   "date": "2026-09-20",
+   "channel": "ecom",
+   "device_id": "DEV-83325f",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00114",
+   "customer_id": "C034",
+   "merchant_id": "M100",
+   "amount": 2994,
+   "date": "2026-08-29",
+   "channel": "ecom",
+   "device_id": "DEV-658b7b",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00115",
+   "customer_id": "C034",
+   "merchant_id": "M105",
+   "amount": 714,
+   "date": "2026-08-30",
+   "channel": "upi",
+   "device_id": "DEV-658b7b",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00116",
+   "customer_id": "C034",
+   "merchant_id": "M105",
+   "amount": 253,
+   "date": "2026-09-02",
+   "channel": "ecom",
+   "device_id": "DEV-658b7b",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00117",
+   "customer_id": "C034",
+   "merchant_id": "M101",
+   "amount": 4366,
+   "date": "2026-09-20",
+   "channel": "ecom",
+   "device_id": "DEV-658b7b",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00118",
+   "customer_id": "C035",
+   "merchant_id": "M107",
+   "amount": 3958,
+   "date": "2026-08-25",
+   "channel": "upi",
+   "device_id": "DEV-ddf6c7",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00119",
+   "customer_id": "C035",
+   "merchant_id": "M104",
+   "amount": 2790,
+   "date": "2026-08-31",
+   "channel": "pos",
+   "device_id": "DEV-ddf6c7",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00120",
+   "customer_id": "C035",
+   "merchant_id": "M106",
+   "amount": 17496,
+   "date": "2026-09-12",
+   "channel": "ecom",
+   "device_id": "DEV-ddf6c7",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00121",
+   "customer_id": "C036",
+   "merchant_id": "M102",
+   "amount": 4144,
+   "date": "2026-08-22",
+   "channel": "ecom",
+   "device_id": "DEV-e6cf85",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00122",
+   "customer_id": "C036",
+   "merchant_id": "M104",
+   "amount": 2938,
+   "date": "2026-08-20",
+   "channel": "upi",
+   "device_id": "DEV-e6cf85",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00123",
+   "customer_id": "C036",
+   "merchant_id": "M105",
+   "amount": 16597,
+   "date": "2026-09-02",
+   "channel": "ecom",
+   "device_id": "DEV-e6cf85",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00124",
+   "customer_id": "C037",
+   "merchant_id": "M107",
+   "amount": 5441,
+   "date": "2026-08-31",
+   "channel": "ecom",
+   "device_id": "DEV-053286",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00125",
+   "customer_id": "C037",
+   "merchant_id": "M103",
+   "amount": 16409,
+   "date": "2026-09-27",
+   "channel": "ecom",
+   "device_id": "DEV-053286",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00126",
+   "customer_id": "C038",
+   "merchant_id": "M105",
+   "amount": 4026,
+   "date": "2026-08-25",
+   "channel": "upi",
+   "device_id": "DEV-08d41b",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00127",
+   "customer_id": "C038",
+   "merchant_id": "M105",
+   "amount": 3635,
+   "date": "2026-08-19",
+   "channel": "upi",
+   "device_id": "DEV-08d41b",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00128",
+   "customer_id": "C038",
+   "merchant_id": "M105",
+   "amount": 3032,
+   "date": "2026-08-20",
+   "channel": "ecom",
+   "device_id": "DEV-08d41b",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00129",
+   "customer_id": "C038",
+   "merchant_id": "M106",
+   "amount": 10433,
+   "date": "2026-09-16",
+   "channel": "ecom",
+   "device_id": "DEV-08d41b",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00130",
+   "customer_id": "C039",
+   "merchant_id": "M102",
+   "amount": 1719,
+   "date": "2026-09-10",
+   "channel": "upi",
+   "device_id": "DEV-9cfdb0",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00131",
+   "customer_id": "C039",
+   "merchant_id": "M107",
+   "amount": 2415,
+   "date": "2026-08-24",
+   "channel": "upi",
+   "device_id": "DEV-9cfdb0",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00132",
+   "customer_id": "C039",
+   "merchant_id": "M104",
+   "amount": 973,
+   "date": "2026-09-10",
+   "channel": "ecom",
+   "device_id": "DEV-9cfdb0",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00133",
+   "customer_id": "C039",
+   "merchant_id": "M103",
+   "amount": 4317,
+   "date": "2026-09-21",
+   "channel": "ecom",
+   "device_id": "DEV-9cfdb0",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00134",
+   "customer_id": "C040",
+   "merchant_id": "M104",
+   "amount": 5863,
+   "date": "2026-09-09",
+   "channel": "upi",
+   "device_id": "DEV-b8c567",
+   "city": "Pune"
+  },
+  {
+   "id": "T00135",
+   "customer_id": "C040",
+   "merchant_id": "M107",
+   "amount": 990,
+   "date": "2026-09-13",
+   "channel": "upi",
+   "device_id": "DEV-b8c567",
+   "city": "Pune"
+  },
+  {
+   "id": "T00136",
+   "customer_id": "C040",
+   "merchant_id": "M104",
+   "amount": 3995,
+   "date": "2026-08-29",
+   "channel": "ecom",
+   "device_id": "DEV-b8c567",
+   "city": "Pune"
+  },
+  {
+   "id": "T00137",
+   "customer_id": "C040",
+   "merchant_id": "M102",
+   "amount": 1891,
+   "date": "2026-09-18",
+   "channel": "ecom",
+   "device_id": "DEV-b8c567",
+   "city": "Pune"
+  },
+  {
+   "id": "T00138",
+   "customer_id": "C041",
+   "merchant_id": "M100",
+   "amount": 1392,
+   "date": "2026-08-27",
+   "channel": "upi",
+   "device_id": "DEV-5e64ea",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00139",
+   "customer_id": "C041",
+   "merchant_id": "M101",
+   "amount": 13530,
+   "date": "2026-09-05",
+   "channel": "pos",
+   "device_id": "DEV-5e64ea",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00140",
+   "customer_id": "C042",
+   "merchant_id": "M104",
+   "amount": 4971,
+   "date": "2026-09-16",
+   "channel": "ecom",
+   "device_id": "DEV-2b9cd4",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00141",
+   "customer_id": "C042",
+   "merchant_id": "M100",
+   "amount": 5144,
+   "date": "2026-09-06",
+   "channel": "pos",
+   "device_id": "DEV-2b9cd4",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00142",
+   "customer_id": "C042",
+   "merchant_id": "M103",
+   "amount": 12864,
+   "date": "2026-10-04",
+   "channel": "pos",
+   "device_id": "DEV-2b9cd4",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00143",
+   "customer_id": "C043",
+   "merchant_id": "M106",
+   "amount": 3840,
+   "date": "2026-08-16",
+   "channel": "upi",
+   "device_id": "DEV-6c0b7e",
+   "city": "Pune"
+  },
+  {
+   "id": "T00144",
+   "customer_id": "C043",
+   "merchant_id": "M103",
+   "amount": 2859,
+   "date": "2026-09-12",
+   "channel": "pos",
+   "device_id": "DEV-6c0b7e",
+   "city": "Pune"
+  },
+  {
+   "id": "T00145",
+   "customer_id": "C044",
+   "merchant_id": "M104",
+   "amount": 5270,
+   "date": "2026-09-07",
+   "channel": "upi",
+   "device_id": "DEV-951ff0",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00146",
+   "customer_id": "C044",
+   "merchant_id": "M104",
+   "amount": 2732,
+   "date": "2026-09-30",
+   "channel": "pos",
+   "device_id": "DEV-951ff0",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00147",
+   "customer_id": "C045",
+   "merchant_id": "M102",
+   "amount": 2669,
+   "date": "2026-08-25",
+   "channel": "upi",
+   "device_id": "DEV-d9abd0",
+   "city": "Pune"
+  },
+  {
+   "id": "T00148",
+   "customer_id": "C045",
+   "merchant_id": "M102",
+   "amount": 5060,
+   "date": "2026-09-18",
+   "channel": "pos",
+   "device_id": "DEV-d9abd0",
+   "city": "Pune"
+  },
+  {
+   "id": "T00149",
+   "customer_id": "C046",
+   "merchant_id": "M107",
+   "amount": 808,
+   "date": "2026-08-25",
+   "channel": "pos",
+   "device_id": "DEV-e0d8b8",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00150",
+   "customer_id": "C046",
+   "merchant_id": "M106",
+   "amount": 2790,
+   "date": "2026-08-25",
+   "channel": "ecom",
+   "device_id": "DEV-e0d8b8",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00151",
+   "customer_id": "C046",
+   "merchant_id": "M106",
+   "amount": 16799,
+   "date": "2026-09-18",
+   "channel": "pos",
+   "device_id": "DEV-e0d8b8",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00152",
+   "customer_id": "C047",
+   "merchant_id": "M107",
+   "amount": 4401,
+   "date": "2026-09-12",
+   "channel": "ecom",
+   "device_id": "DEV-2ec265",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00153",
+   "customer_id": "C047",
+   "merchant_id": "M104",
+   "amount": 96458,
+   "date": "2026-10-07",
+   "channel": "ecom",
+   "device_id": "DEV-5cec25",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00154",
+   "customer_id": "C048",
+   "merchant_id": "M102",
+   "amount": 2851,
+   "date": "2026-09-04",
+   "channel": "upi",
+   "device_id": "DEV-fbc37b",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00155",
+   "customer_id": "C048",
+   "merchant_id": "M106",
+   "amount": 124942,
+   "date": "2026-09-22",
+   "channel": "ecom",
+   "device_id": "DEV-939148",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00156",
+   "customer_id": "C049",
+   "merchant_id": "M100",
+   "amount": 5537,
+   "date": "2026-08-30",
+   "channel": "ecom",
+   "device_id": "DEV-12c9f7",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00157",
+   "customer_id": "C049",
+   "merchant_id": "M106",
+   "amount": 594,
+   "date": "2026-09-10",
+   "channel": "upi",
+   "device_id": "DEV-12c9f7",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00158",
+   "customer_id": "C049",
+   "merchant_id": "M104",
+   "amount": 107419,
+   "date": "2026-09-21",
+   "channel": "ecom",
+   "device_id": "DEV-ff3a7c",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00159",
+   "customer_id": "C050",
+   "merchant_id": "M103",
+   "amount": 5964,
+   "date": "2026-09-19",
+   "channel": "ecom",
+   "device_id": "DEV-1a6cdb",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00160",
+   "customer_id": "C050",
+   "merchant_id": "M104",
+   "amount": 132199,
+   "date": "2026-09-29",
+   "channel": "ecom",
+   "device_id": "DEV-070056",
+   "city": "Gurugram"
+  },
+  {
+   "id": "T00161",
+   "customer_id": "C051",
+   "merchant_id": "M104",
+   "amount": 4318,
+   "date": "2026-08-12",
+   "channel": "ecom",
+   "device_id": "DEV-2fb91d",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00162",
+   "customer_id": "C051",
+   "merchant_id": "M106",
+   "amount": 4102,
+   "date": "2026-08-19",
+   "channel": "pos",
+   "device_id": "DEV-2fb91d",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00163",
+   "customer_id": "C051",
+   "merchant_id": "M107",
+   "amount": 4665,
+   "date": "2026-08-30",
+   "channel": "ecom",
+   "device_id": "DEV-2fb91d",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00164",
+   "customer_id": "C051",
+   "merchant_id": "M107",
+   "amount": 5445,
+   "date": "2026-09-08",
+   "channel": "pos",
+   "device_id": "DEV-2fb91d",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00165",
+   "customer_id": "C052",
+   "merchant_id": "M104",
+   "amount": 2595,
+   "date": "2026-08-30",
+   "channel": "upi",
+   "device_id": "DEV-45e46b",
+   "city": "Pune"
+  },
+  {
+   "id": "T00166",
+   "customer_id": "C052",
+   "merchant_id": "M106",
+   "amount": 17037,
+   "date": "2026-09-22",
+   "channel": "pos",
+   "device_id": "DEV-45e46b",
+   "city": "Pune"
+  },
+  {
+   "id": "T00167",
+   "customer_id": "C053",
+   "merchant_id": "M106",
+   "amount": 3880,
+   "date": "2026-09-08",
+   "channel": "pos",
+   "device_id": "DEV-4c14b2",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00168",
+   "customer_id": "C053",
+   "merchant_id": "M103",
+   "amount": 4834,
+   "date": "2026-09-06",
+   "channel": "pos",
+   "device_id": "DEV-4c14b2",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00169",
+   "customer_id": "C053",
+   "merchant_id": "M106",
+   "amount": 507,
+   "date": "2026-09-08",
+   "channel": "upi",
+   "device_id": "DEV-4c14b2",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00170",
+   "customer_id": "C053",
+   "merchant_id": "M107",
+   "amount": 11293,
+   "date": "2026-09-23",
+   "channel": "pos",
+   "device_id": "DEV-4c14b2",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00171",
+   "customer_id": "C054",
+   "merchant_id": "M105",
+   "amount": 972,
+   "date": "2026-08-15",
+   "channel": "pos",
+   "device_id": "DEV-c330ba",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00172",
+   "customer_id": "C054",
+   "merchant_id": "M107",
+   "amount": 275,
+   "date": "2026-08-06",
+   "channel": "pos",
+   "device_id": "DEV-c330ba",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00173",
+   "customer_id": "C054",
+   "merchant_id": "M106",
+   "amount": 5513,
+   "date": "2026-08-25",
+   "channel": "pos",
+   "device_id": "DEV-c330ba",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00174",
+   "customer_id": "C054",
+   "merchant_id": "M107",
+   "amount": 4536,
+   "date": "2026-09-03",
+   "channel": "pos",
+   "device_id": "DEV-c330ba",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00175",
+   "customer_id": "C055",
+   "merchant_id": "M107",
+   "amount": 4582,
+   "date": "2026-09-16",
+   "channel": "upi",
+   "device_id": "DEV-87b110",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00176",
+   "customer_id": "C055",
+   "merchant_id": "M101",
+   "amount": 2073,
+   "date": "2026-08-28",
+   "channel": "upi",
+   "device_id": "DEV-87b110",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00177",
+   "customer_id": "C055",
+   "merchant_id": "M101",
+   "amount": 17885,
+   "date": "2026-09-22",
+   "channel": "upi",
+   "device_id": "DEV-87b110",
+   "city": "Pune"
+  },
+  {
+   "id": "T00178",
+   "customer_id": "C056",
+   "merchant_id": "M100",
+   "amount": 526,
+   "date": "2026-09-14",
+   "channel": "pos",
+   "device_id": "DEV-747914",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00179",
+   "customer_id": "C056",
+   "merchant_id": "M104",
+   "amount": 3086,
+   "date": "2026-09-13",
+   "channel": "ecom",
+   "device_id": "DEV-747914",
+   "city": "Hyderabad"
+  },
+  {
+   "id": "T00180",
+   "customer_id": "C056",
+   "merchant_id": "M101",
+   "amount": 5851,
+   "date": "2026-09-29",
+   "channel": "upi",
+   "device_id": "DEV-747914",
+   "city": "Chennai"
+  },
+  {
+   "id": "T00181",
+   "customer_id": "C057",
+   "merchant_id": "M103",
+   "amount": 4226,
+   "date": "2026-08-20",
+   "channel": "pos",
+   "device_id": "DEV-7d0772",
+   "city": "Mumbai"
+  },
+  {
+   "id": "T00182",
+   "customer_id": "C057",
+   "merchant_id": "M103",
+   "amount": 3927,
+   "date": "2026-08-18",
+   "channel": "ecom",
+   "device_id": "DEV-7d0772",
+   "city": "Mumbai"
+  },
+  {
+   "id": "T00183",
+   "customer_id": "C057",
+   "merchant_id": "M102",
+   "amount": 2987,
+   "date": "2026-09-12",
+   "channel": "upi",
+   "device_id": "DEV-7d0772",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00184",
+   "customer_id": "C058",
+   "merchant_id": "M104",
+   "amount": 5384,
+   "date": "2026-08-18",
+   "channel": "upi",
+   "device_id": "DEV-82ba2e",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00185",
+   "customer_id": "C058",
+   "merchant_id": "M104",
+   "amount": 3892,
+   "date": "2026-08-22",
+   "channel": "pos",
+   "device_id": "DEV-82ba2e",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00186",
+   "customer_id": "C058",
+   "merchant_id": "M106",
+   "amount": 4108,
+   "date": "2026-08-28",
+   "channel": "pos",
+   "device_id": "DEV-82ba2e",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00187",
+   "customer_id": "C058",
+   "merchant_id": "M102",
+   "amount": 14874,
+   "date": "2026-09-05",
+   "channel": "ecom",
+   "device_id": "DEV-82ba2e",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00188",
+   "customer_id": "C058",
+   "merchant_id": "M102",
+   "amount": 14874,
+   "date": "2026-09-06",
+   "channel": "ecom",
+   "device_id": "DEV-82ba2e",
+   "city": "Jaipur"
+  },
+  {
+   "id": "T00189",
+   "customer_id": "C059",
+   "merchant_id": "M107",
+   "amount": 2494,
+   "date": "2026-08-03",
+   "channel": "pos",
+   "device_id": "DEV-977c95",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00190",
+   "customer_id": "C059",
+   "merchant_id": "M105",
+   "amount": 1944,
+   "date": "2026-08-07",
+   "channel": "pos",
+   "device_id": "DEV-977c95",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00191",
+   "customer_id": "C059",
+   "merchant_id": "M104",
+   "amount": 5702,
+   "date": "2026-08-03",
+   "channel": "upi",
+   "device_id": "DEV-977c95",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00192",
+   "customer_id": "C059",
+   "merchant_id": "M104",
+   "amount": 2007,
+   "date": "2026-09-01",
+   "channel": "ecom",
+   "device_id": "DEV-977c95",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00193",
+   "customer_id": "C059",
+   "merchant_id": "M104",
+   "amount": 2007,
+   "date": "2026-09-01",
+   "channel": "ecom",
+   "device_id": "DEV-977c95",
+   "city": "Kolkata"
+  },
+  {
+   "id": "T00194",
+   "customer_id": "C060",
+   "merchant_id": "M106",
+   "amount": 1588,
+   "date": "2026-08-29",
+   "channel": "pos",
+   "device_id": "DEV-142f32",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00195",
+   "customer_id": "C060",
+   "merchant_id": "M105",
+   "amount": 4498,
+   "date": "2026-08-19",
+   "channel": "ecom",
+   "device_id": "DEV-142f32",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00196",
+   "customer_id": "C060",
+   "merchant_id": "M105",
+   "amount": 3353,
+   "date": "2026-09-09",
+   "channel": "ecom",
+   "device_id": "DEV-142f32",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "T00197",
+   "customer_id": "C060",
+   "merchant_id": "M105",
+   "amount": 3353,
+   "date": "2026-09-09",
+   "channel": "ecom",
+   "device_id": "DEV-142f32",
+   "city": "Bengaluru"
+  }
+ ],
+ "deliveries": [
+  {
+   "id": "DL0001",
+   "transaction_id": "T00071",
+   "status": "failed",
+   "date": null
+  },
+  {
+   "id": "DL0002",
+   "transaction_id": "T00074",
+   "status": "in_transit",
+   "date": null
+  },
+  {
+   "id": "DL0003",
+   "transaction_id": "T00077",
+   "status": "failed",
+   "date": null
+  },
+  {
+   "id": "DL0004",
+   "transaction_id": "T00081",
+   "status": "in_transit",
+   "date": null
+  },
+  {
+   "id": "DL0005",
+   "transaction_id": "T00084",
+   "status": "failed",
+   "date": null
+  },
+  {
+   "id": "DL0006",
+   "transaction_id": "T00087",
+   "status": "in_transit",
+   "date": null
+  },
+  {
+   "id": "DL0007",
+   "transaction_id": "T00089",
+   "status": "failed",
+   "date": null
+  },
+  {
+   "id": "DL0008",
+   "transaction_id": "T00091",
+   "status": "in_transit",
+   "date": null
+  },
+  {
+   "id": "DL0009",
+   "transaction_id": "T00113",
+   "status": "delivered",
+   "date": "2026-09-24"
+  },
+  {
+   "id": "DL0010",
+   "transaction_id": "T00117",
+   "status": "delivered",
+   "date": "2026-09-24"
+  },
+  {
+   "id": "DL0011",
+   "transaction_id": "T00120",
+   "status": "delivered",
+   "date": "2026-09-16"
+  },
+  {
+   "id": "DL0012",
+   "transaction_id": "T00123",
+   "status": "delivered",
+   "date": "2026-09-06"
+  },
+  {
+   "id": "DL0013",
+   "transaction_id": "T00125",
+   "status": "delivered",
+   "date": "2026-10-01"
+  },
+  {
+   "id": "DL0014",
+   "transaction_id": "T00129",
+   "status": "delivered",
+   "date": "2026-09-20"
+  },
+  {
+   "id": "DL0015",
+   "transaction_id": "T00133",
+   "status": "delivered",
+   "date": "2026-09-25"
+  },
+  {
+   "id": "DL0016",
+   "transaction_id": "T00137",
+   "status": "delivered",
+   "date": "2026-09-22"
+  },
+  {
+   "id": "DL0017",
+   "transaction_id": "T00187",
+   "status": "delivered",
+   "date": "2026-09-08"
+  },
+  {
+   "id": "DL0018",
+   "transaction_id": "T00188",
+   "status": "delivered",
+   "date": "2026-09-08"
+  },
+  {
+   "id": "DL0019",
+   "transaction_id": "T00192",
+   "status": "delivered",
+   "date": "2026-09-04"
+  },
+  {
+   "id": "DL0020",
+   "transaction_id": "T00193",
+   "status": "delivered",
+   "date": "2026-09-04"
+  },
+  {
+   "id": "DL0021",
+   "transaction_id": "T00196",
+   "status": "delivered",
+   "date": "2026-09-12"
+  },
+  {
+   "id": "DL0022",
+   "transaction_id": "T00197",
+   "status": "delivered",
+   "date": "2026-09-12"
+  }
+ ]
+}

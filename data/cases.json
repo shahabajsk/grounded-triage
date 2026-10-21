@@ -1,0 +1,662 @@
+[
+ {
+  "dispute": {
+   "id": "D001",
+   "customer_id": "C041",
+   "transaction_id": "T00139",
+   "complaint": "This is not me, I don't recognise this transaction.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D002",
+   "customer_id": "C029",
+   "transaction_id": "T00101",
+   "complaint": "The amount charged is higher than what I agreed to pay.",
+   "claimed_amount": 940
+  },
+  "expected_category": "amount_mismatch",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D003",
+   "customer_id": "C028",
+   "transaction_id": "T00098",
+   "complaint": "The amount charged is higher than what I agreed to pay.",
+   "claimed_amount": 13813
+  },
+  "expected_category": "amount_mismatch",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D004",
+   "customer_id": "C009",
+   "transaction_id": "T00032",
+   "complaint": "I didn't make this payment. My card was with me the whole time.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D005",
+   "customer_id": "C013",
+   "transaction_id": "T00045",
+   "complaint": "I was charged twice for the same order.",
+   "claimed_amount": null
+  },
+  "expected_category": "duplicate_charge",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D006",
+   "customer_id": "C014",
+   "transaction_id": "T00050",
+   "complaint": "I was charged twice for the same order.",
+   "claimed_amount": null
+  },
+  "expected_category": "duplicate_charge",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D007",
+   "customer_id": "C032",
+   "transaction_id": "T00111",
+   "complaint": "The amount charged is higher than what I agreed to pay.",
+   "claimed_amount": 1648
+  },
+  "expected_category": "amount_mismatch",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D008",
+   "customer_id": "C055",
+   "transaction_id": "T00177",
+   "complaint": "My phone was stolen on a trip and someone used it to pay. Not me.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D009",
+   "customer_id": "C049",
+   "transaction_id": "T00158",
+   "complaint": "Unauthorised transaction on my card, I was not travelling.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D010",
+   "customer_id": "C033",
+   "transaction_id": "T00113",
+   "complaint": "Order not received, please refund.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "reject"
+ },
+ {
+  "dispute": {
+   "id": "D011",
+   "customer_id": "C034",
+   "transaction_id": "T00117",
+   "complaint": "Order not received, please refund.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "reject"
+ },
+ {
+  "dispute": {
+   "id": "D012",
+   "customer_id": "C057",
+   "transaction_id": "T00183",
+   "complaint": "My phone was stolen on a trip and someone used it to pay. Not me.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D013",
+   "customer_id": "C002",
+   "transaction_id": "T00006",
+   "complaint": "I didn't make this payment. My card was with me the whole time.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D014",
+   "customer_id": "C007",
+   "transaction_id": "T00024",
+   "complaint": "I didn't make this payment. My card was with me the whole time.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D015",
+   "customer_id": "C037",
+   "transaction_id": "T00125",
+   "complaint": "Order not received, please refund.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "reject"
+ },
+ {
+  "dispute": {
+   "id": "D016",
+   "customer_id": "C054",
+   "transaction_id": "T00174",
+   "complaint": "I don't recognise this charge.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D017",
+   "customer_id": "C047",
+   "transaction_id": "T00153",
+   "complaint": "Unauthorised transaction on my card, I was not travelling.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D018",
+   "customer_id": "C003",
+   "transaction_id": "T00010",
+   "complaint": "I didn't make this payment. My card was with me the whole time.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D019",
+   "customer_id": "C040",
+   "transaction_id": "T00137",
+   "complaint": "Order not received, please refund.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "reject"
+ },
+ {
+  "dispute": {
+   "id": "D020",
+   "customer_id": "C023",
+   "transaction_id": "T00084",
+   "complaint": "I paid for this order but it never arrived.",
+   "claimed_amount": null
+  },
+  "expected_category": "not_received",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D021",
+   "customer_id": "C011",
+   "transaction_id": "T00037",
+   "complaint": "I was charged twice for the same order.",
+   "claimed_amount": null
+  },
+  "expected_category": "duplicate_charge",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D022",
+   "customer_id": "C018",
+   "transaction_id": "T00068",
+   "complaint": "I was charged twice for the same order.",
+   "claimed_amount": null
+  },
+  "expected_category": "duplicate_charge",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D023",
+   "customer_id": "C020",
+   "transaction_id": "T00074",
+   "complaint": "I paid for this order but it never arrived.",
+   "claimed_amount": null
+  },
+  "expected_category": "not_received",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D024",
+   "customer_id": "C039",
+   "transaction_id": "T00133",
+   "complaint": "Order not received, please refund.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "reject"
+ },
+ {
+  "dispute": {
+   "id": "D025",
+   "customer_id": "C016",
+   "transaction_id": "T00059",
+   "complaint": "I was charged twice for the same order.",
+   "claimed_amount": null
+  },
+  "expected_category": "duplicate_charge",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D026",
+   "customer_id": "C043",
+   "transaction_id": "T00144",
+   "complaint": "This is not me, I don't recognise this transaction.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D027",
+   "customer_id": "C058",
+   "transaction_id": "T00187",
+   "complaint": "I was charged twice for the same order.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "reject"
+ },
+ {
+  "dispute": {
+   "id": "D028",
+   "customer_id": "C004",
+   "transaction_id": "T00014",
+   "complaint": "I didn't make this payment. My card was with me the whole time.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D029",
+   "customer_id": "C012",
+   "transaction_id": "T00042",
+   "complaint": "I was charged twice for the same order.",
+   "claimed_amount": null
+  },
+  "expected_category": "duplicate_charge",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D030",
+   "customer_id": "C021",
+   "transaction_id": "T00077",
+   "complaint": "I paid for this order but it never arrived.",
+   "claimed_amount": null
+  },
+  "expected_category": "not_received",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D031",
+   "customer_id": "C027",
+   "transaction_id": "T00094",
+   "complaint": "The amount charged is higher than what I agreed to pay.",
+   "claimed_amount": 2769
+  },
+  "expected_category": "amount_mismatch",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D032",
+   "customer_id": "C025",
+   "transaction_id": "T00089",
+   "complaint": "I paid for this order but it never arrived.",
+   "claimed_amount": null
+  },
+  "expected_category": "not_received",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D033",
+   "customer_id": "C038",
+   "transaction_id": "T00129",
+   "complaint": "Order not received, please refund.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "reject"
+ },
+ {
+  "dispute": {
+   "id": "D034",
+   "customer_id": "C042",
+   "transaction_id": "T00142",
+   "complaint": "This is not me, I don't recognise this transaction.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D035",
+   "customer_id": "C050",
+   "transaction_id": "T00160",
+   "complaint": "Unauthorised transaction on my card, I was not travelling.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D036",
+   "customer_id": "C051",
+   "transaction_id": "T00164",
+   "complaint": "I don't recognise this charge.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D037",
+   "customer_id": "C035",
+   "transaction_id": "T00120",
+   "complaint": "Order not received, please refund.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "reject"
+ },
+ {
+  "dispute": {
+   "id": "D038",
+   "customer_id": "C060",
+   "transaction_id": "T00196",
+   "complaint": "I was charged twice for the same order.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "reject"
+ },
+ {
+  "dispute": {
+   "id": "D039",
+   "customer_id": "C001",
+   "transaction_id": "T00003",
+   "complaint": "I didn't make this payment. My card was with me the whole time.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D040",
+   "customer_id": "C045",
+   "transaction_id": "T00148",
+   "complaint": "This is not me, I don't recognise this transaction.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D041",
+   "customer_id": "C006",
+   "transaction_id": "T00020",
+   "complaint": "I didn't make this payment. My card was with me the whole time.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D042",
+   "customer_id": "C024",
+   "transaction_id": "T00087",
+   "complaint": "I paid for this order but it never arrived.",
+   "claimed_amount": null
+  },
+  "expected_category": "not_received",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D043",
+   "customer_id": "C036",
+   "transaction_id": "T00123",
+   "complaint": "Order not received, please refund.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "reject"
+ },
+ {
+  "dispute": {
+   "id": "D044",
+   "customer_id": "C026",
+   "transaction_id": "T00091",
+   "complaint": "I paid for this order but it never arrived.",
+   "claimed_amount": null
+  },
+  "expected_category": "not_received",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D045",
+   "customer_id": "C046",
+   "transaction_id": "T00151",
+   "complaint": "This is not me, I don't recognise this transaction.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D046",
+   "customer_id": "C044",
+   "transaction_id": "T00146",
+   "complaint": "This is not me, I don't recognise this transaction.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D047",
+   "customer_id": "C015",
+   "transaction_id": "T00055",
+   "complaint": "I was charged twice for the same order.",
+   "claimed_amount": null
+  },
+  "expected_category": "duplicate_charge",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D048",
+   "customer_id": "C010",
+   "transaction_id": "T00034",
+   "complaint": "I didn't make this payment. My card was with me the whole time.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D049",
+   "customer_id": "C005",
+   "transaction_id": "T00018",
+   "complaint": "I didn't make this payment. My card was with me the whole time.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D050",
+   "customer_id": "C030",
+   "transaction_id": "T00104",
+   "complaint": "The amount charged is higher than what I agreed to pay.",
+   "claimed_amount": 8843
+  },
+  "expected_category": "amount_mismatch",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D051",
+   "customer_id": "C008",
+   "transaction_id": "T00028",
+   "complaint": "I didn't make this payment. My card was with me the whole time.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D052",
+   "customer_id": "C056",
+   "transaction_id": "T00180",
+   "complaint": "My phone was stolen on a trip and someone used it to pay. Not me.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D053",
+   "customer_id": "C022",
+   "transaction_id": "T00081",
+   "complaint": "I paid for this order but it never arrived.",
+   "claimed_amount": null
+  },
+  "expected_category": "not_received",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D054",
+   "customer_id": "C048",
+   "transaction_id": "T00155",
+   "complaint": "Unauthorised transaction on my card, I was not travelling.",
+   "claimed_amount": null
+  },
+  "expected_category": "unauthorized",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D055",
+   "customer_id": "C019",
+   "transaction_id": "T00071",
+   "complaint": "I paid for this order but it never arrived.",
+   "claimed_amount": null
+  },
+  "expected_category": "not_received",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D056",
+   "customer_id": "C052",
+   "transaction_id": "T00166",
+   "complaint": "I don't recognise this charge.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D057",
+   "customer_id": "C031",
+   "transaction_id": "T00107",
+   "complaint": "The amount charged is higher than what I agreed to pay.",
+   "claimed_amount": 547
+  },
+  "expected_category": "amount_mismatch",
+  "expected_action": "provisional_credit"
+ },
+ {
+  "dispute": {
+   "id": "D058",
+   "customer_id": "C053",
+   "transaction_id": "T00170",
+   "complaint": "I don't recognise this charge.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "escalate"
+ },
+ {
+  "dispute": {
+   "id": "D059",
+   "customer_id": "C059",
+   "transaction_id": "T00192",
+   "complaint": "I was charged twice for the same order.",
+   "claimed_amount": null
+  },
+  "expected_category": "no_basis",
+  "expected_action": "reject"
+ },
+ {
+  "dispute": {
+   "id": "D060",
+   "customer_id": "C017",
+   "transaction_id": "T00063",
+   "complaint": "I was charged twice for the same order.",
+   "claimed_amount": null
+  },
+  "expected_category": "duplicate_charge",
+  "expected_action": "provisional_credit"
+ }
+]
